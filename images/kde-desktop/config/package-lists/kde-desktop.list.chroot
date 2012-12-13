@@ -2,5 +2,5 @@ task-kde-desktop
 task-laptop
 
 #nif DISTRIBUTION wheezy
-plymouth plymouth-drm
+	plymouth plymouth-drm plymouth-x11
 #endif
