@@ -1,0 +1,6 @@
+task-lxde-desktop
+task-laptop
+
+#nif DISTRIBUTION wheezy
+plymouth plymouth-drm
+#endif

@@ -1,0 +1,15 @@
+This is the configuration tree for:
+
+  Debian GNOME Desktop
+
+A software called live-build can be used to automatically build images from
+this configuration tree.
+
+live-build can be obtained from <http://live.debian.net/devel/live-build/>.
+On Debian based systems, live-build can be installed with:
+
+  # apt-get install live-build
+
+More information about live-build and the Debian Live project can be found on
+its homepage at <http://live.debian.net/> and in the manual at
+<http://live.debian.net/manual/>.
