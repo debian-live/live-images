@@ -1,0 +1,1 @@
+live-image-gnome-desktop: package-contains-vcs-control-file usr/share/live/images/gnome-desktop/.gitignore

@@ -1,0 +1,85 @@
+Source: live-images
+Section: misc
+Priority: optional
+Maintainer: Debian Live Project <debian-live@lists.debian.org>
+Uploaders: Daniel Baumann <daniel@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: http://live.debian.net/devel/live-images/
+Vcs-Browser: http://live.debian.net/gitweb/?p=live-images.git
+Vcs-Git: git://live.debian.net/git/live-images.git
+
+Package: live-image-all
+Architecture: all
+Section: metapackages
+Depends:
+ ${misc:Depends}, live-image-gnome-desktop, live-image-kde-desktop,
+ live-image-lxde-desktop, live-image-rescue, live-image-standard,
+ live-image-xfce-desktop
+Recommends:
+ live-boot-doc, live-config-doc, live-debconfig-doc,
+ live-manual-html | live-manual
+Description: live-build configurations (metapackage)
+ Live images are built with live-build configuration trees.
+ .
+ This package is a metapackage depending on all available configuration trees.
+
+Package: live-image-gnome-desktop
+Architecture: all
+Depends: ${misc:Depends}, live-build (>= 3.0)
+Recommends:
+ live-boot-doc, live-config-doc, live-debconfig-doc,
+ live-manual-html | live-manual
+Description: live-build configuration for the GNOME desktop live images
+ live-image-gnome-desktop contains the live-build configuration tree to build
+ the GNOME desktop live image.
+
+Package: live-image-kde-desktop
+Architecture: all
+Depends: ${misc:Depends}, live-build (>= 3.0)
+Recommends:
+ live-boot-doc, live-config-doc, live-debconfig-doc,
+ live-manual-html | live-manual
+Description: live-build configuration for the KDE live images
+ live-image-kde-desktop contains the live-build configuration tree to build
+ the KDE desktop live image.
+
+Package: live-image-lxde-desktop
+Architecture: all
+Depends: ${misc:Depends}, live-build (>= 3.0)
+Recommends:
+ live-boot-doc, live-config-doc, live-debconfig-doc,
+ live-manual-html | live-manual
+Description: live-build configuration for the LXDE desktop live images
+ live-image-lxde-desktop contains the live-build configuration tree to build
+ the LXDE desktop live image.
+
+Package: live-image-rescue
+Architecture: all
+Depends: ${misc:Depends}, live-build (>= 3.0)
+Recommends:
+ live-boot-doc, live-config-doc, live-debconfig-doc,
+ live-manual-html | live-manual
+Description: live-build configuration for the rescue live images
+ live-image-rescue contains the live-build configuration tree to build
+ the rescue live image.
+
+Package: live-image-standard
+Architecture: all
+Depends: ${misc:Depends}, live-build (>= 3.0)
+Recommends:
+ live-boot-doc, live-config-doc, live-debconfig-doc,
+ live-manual-html | live-manual
+Description: live-build configuration for the standard live images
+ live-image-standard contains the live-build configuration tree to build
+ the standard live image.
+
+Package: live-image-xfce-desktop
+Architecture: all
+Depends: ${misc:Depends}, live-build (>= 3.0)
+Recommends:
+ live-boot-doc, live-config-doc, live-debconfig-doc,
+ live-manual-html | live-manual
+Description: live-build configuration for the Xfce desktop live images
+ live-image-xfce-desktop contains the live-build configuration tree to build
+ the Xfce desktop live image.

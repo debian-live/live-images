@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+%:
+	dh ${@}
+
+override_dh_auto_install:
+	dh_auto_install -- DESTDIR=debian/tmp
+
+	# Removing unused files
+	rm -f debian/tmp/usr/share/doc/live-images/COPYING
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz -z9
+
+override_dh_compress:
+	dh_compress -Xusr/share/live/images
+
+override_dh_install:
+	dh_install --fail-missing

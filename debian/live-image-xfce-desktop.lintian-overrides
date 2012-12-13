@@ -1,0 +1,1 @@
+live-image-xfce-desktop: package-contains-vcs-control-file usr/share/live/images/xfce-desktop/.gitignore
