@@ -2,4 +2,4 @@
 
 set -e
 
-lb config noauto --clean --mode debian --ignore-system-defaults --linux-packages "linux-image linux-headers" "${@}"
+lb config noauto --clean --ignore-system-defaults --mode debian --linux-packages "linux-image linux-headers" "${@}"
