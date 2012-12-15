@@ -6,10 +6,10 @@ open-vm-tools open-vm-toolbox
 virtualbox-guest-dkms
 virtualbox-guest-utils virtualbox-guest-x11
 
-#if ARCHIVE_AREAS non-free
-	# live-config xserver-xorg script
-	pciutils
+# live-config xserver-xorg script
+pciutils
 
+#if ARCHIVE_AREAS non-free
 	# fglrx-driver
 	fglrx-driver-dkms
 	fglrx-driver fglrx-control
