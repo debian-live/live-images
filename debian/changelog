@@ -1,3 +1,20 @@
+live-images (4.0~a2-1) unstable; urgency=low
+
+  * Adding dkms package list with open-vm, virtualbox-guest, fglrx, and
+    nvidia modules.
+  * Including plymouth-x11 package.
+  * Adding virtualbox-guest-utils and virtualbox-guest-x11 explicitly to
+    dkms package list.
+  * Sorting lb_config arguments.
+  * Explicitly enabling debian-installer.
+  * Always including pciutils in desktop images, not just when non-fre is
+    enabled as live-configs xserver-xorg scripts support virtualbox too.
+  * Including task-print-server and task-ssh-server in package lists to
+    mimic default taskselb behaviour within debian-installer.
+  * Trimming filename of desktop package lists for easier diffing.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 17 Dec 2012 20:38:14 +0100
+
 live-images (4.0~a1-1) unstable; urgency=low
 
   * Initial release.
