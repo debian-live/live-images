@@ -11,7 +11,7 @@ pciutils
 
 #if ARCHIVE_AREAS non-free
 	# fglrx-driver
-	fglrx-driver-dkms
+	fglrx-modules-dkms
 	fglrx-driver fglrx-control
 
 	# nvidia-graphics-drivers
