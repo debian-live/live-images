@@ -68,9 +68,6 @@ b43-fwcutter
 # Backup
 dar gddrescue dump
 mt-st
-#if DISTRIBUTION sid
-afio tob
-#endif
 dar duplicity
 
 # File comparison
