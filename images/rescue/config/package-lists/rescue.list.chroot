@@ -246,7 +246,7 @@ btrfs-tools
 cryptsetup
 dmraid
 e2fsprogs
-fuse-utils
+fuse
 hfsplus
 hfsutils
 jfsutils
