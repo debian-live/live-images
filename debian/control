@@ -31,8 +31,10 @@ Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
 Description: live-build configuration for the GNOME desktop live images
- live-image-gnome-desktop contains the live-build configuration tree to build
- the GNOME desktop live image.
+ Live images are built with live-build configuration trees.
+ .
+ This package contains the live-build configuration tree to build the
+ GNOME desktop live image.
 
 Package: live-image-kde-desktop
 Architecture: all
@@ -41,8 +43,10 @@ Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
 Description: live-build configuration for the KDE live images
- live-image-kde-desktop contains the live-build configuration tree to build
- the KDE desktop live image.
+ Live images are built with live-build configuration trees.
+ .
+ This package contains the live-build configuration tree to build the
+ KDE desktop live image.
 
 Package: live-image-lxde-desktop
 Architecture: all
@@ -51,8 +55,10 @@ Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
 Description: live-build configuration for the LXDE desktop live images
- live-image-lxde-desktop contains the live-build configuration tree to build
- the LXDE desktop live image.
+ Live images are built with live-build configuration trees.
+ .
+ This package contains the live-build configuration tree to build the
+ LXDE desktop live image.
 
 Package: live-image-rescue
 Architecture: all
@@ -61,8 +67,10 @@ Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
 Description: live-build configuration for the rescue live images
- live-image-rescue contains the live-build configuration tree to build
- the rescue live image.
+ Live images are built with live-build configuration trees.
+ .
+ This package contains the live-build configuration tree to build the
+ rescue live image.
 
 Package: live-image-standard
 Architecture: all
@@ -71,8 +79,10 @@ Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
 Description: live-build configuration for the standard live images
- live-image-standard contains the live-build configuration tree to build
- the standard live image.
+ Live images are built with live-build configuration trees.
+ .
+ This package contains the live-build configuration tree to build the
+ standard live image.
 
 Package: live-image-xfce-desktop
 Architecture: all
@@ -81,5 +91,7 @@ Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
 Description: live-build configuration for the Xfce desktop live images
- live-image-xfce-desktop contains the live-build configuration tree to build
- the Xfce desktop live image.
+ Live images are built with live-build configuration trees.
+ .
+ This package contains the live-build configuration tree to build the
+ Xfce desktop live image.
