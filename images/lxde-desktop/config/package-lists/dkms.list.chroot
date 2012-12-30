@@ -21,4 +21,5 @@ pciutils
 	nvidia-kernel-dkms
 	nvidia-glx xserver-xorg-video-nvidia
 	nvidia-settings nvidia-xconfig nvclock
+	nvidia-vdpau-driver vdpau-va-driver
 #endif
