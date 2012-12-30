@@ -10,6 +10,9 @@ virtualbox-guest-utils virtualbox-guest-x11
 pciutils
 
 #if ARCHIVE_AREAS non-free
+	# broadcom-sta
+	broadcom-sta-dkms
+
 	# fglrx-driver
 	fglrx-modules-dkms
 	fglrx-driver fglrx-control
