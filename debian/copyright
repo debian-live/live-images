@@ -4,7 +4,7 @@ Upstream-Contact: Debian Live Project <debian-live@lists.debian.org>
 Source: http://live.debian.net/archive/packages/live-images/
 
 Files: *
-Copyright: 2006-2012 Daniel Baumann <daniel@debian.org>
+Copyright: 2006-2013 Daniel Baumann <daniel@debian.org>
 License: GPL-3+
 
 License: GPL-3+
