@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-debconfig 4.0~a12-1\n"
-"POT-Creation-Date: 2013-01-02 12:14+0100\n"
+"POT-Creation-Date: 2013-01-02 13:05+0100\n"
 "PO-Revision-Date: 2010-05-24 09:59+0300\n"
 "Last-Translator: Daniel Baumann <daniel@debian.org>\n"
 "Language-Team: none\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: en/live-images.7:9
 #, no-wrap
 msgid "LIVE-IMAGES"
-msgstr ""
+msgstr "LIVE-IMAGES"
 
 #. type: TH
 #: en/live-images.7:9
@@ -31,30 +31,30 @@ msgstr "02.01.2013"
 #: en/live-images.7:9
 #, no-wrap
 msgid "4.0~a2-1"
-msgstr ""
+msgstr "4.0~a2-1"
 
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
 msgid "Debian Live Project"
-msgstr ""
+msgstr "Debian Live Projekt"
 
 #. type: SH
 #: en/live-images.7:11
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NAME"
 
 #. type: Plain text
 #: en/live-images.7:13
 msgid "B<live-images> - System Image Configurations"
-msgstr ""
+msgstr "B<live-images> - System Image Konfigurationen"
 
 #. type: SH
 #: en/live-images.7:14
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "BESCHREIBUNG"
 
 #. type: Plain text
 #: en/live-images.7:16
@@ -62,80 +62,82 @@ msgid ""
 "B<live-images> contains the live-build(7) configuration trees to build live "
 "images."
 msgstr ""
+"B<live-images> enthält die live-build(7) Konfigurationen um Live Images zu "
+"bauen."
 
 #. type: SH
 #: en/live-images.7:17
 #, no-wrap
 msgid "FILES"
-msgstr ""
+msgstr "DATEIEN"
 
 #. type: IP
 #: en/live-images.7:18
 #, no-wrap
 msgid "B</usr/share/live/images/gnome-desktop>"
-msgstr ""
+msgstr "B</usr/share/live/images/gnome-desktop>"
 
 #. type: IP
 #: en/live-images.7:19
 #, no-wrap
 msgid "B</usr/share/live/images/kde-desktop>"
-msgstr ""
+msgstr "B</usr/share/live/images/kde-desktop>"
 
 #. type: IP
 #: en/live-images.7:20
 #, no-wrap
 msgid "B</usr/share/live/images/lxde-desktop>"
-msgstr ""
+msgstr "B</usr/share/live/images/lxde-desktop>"
 
 #. type: IP
 #: en/live-images.7:21
 #, no-wrap
 msgid "B</usr/share/live/images/rescue>"
-msgstr ""
+msgstr "B</usr/share/live/images/rescue>"
 
 #. type: IP
 #: en/live-images.7:22
 #, no-wrap
 msgid "B</usr/share/live/images/standard>"
-msgstr ""
+msgstr "B</usr/share/live/images/standard>"
 
 #. type: IP
 #: en/live-images.7:23
 #, no-wrap
 msgid "B</usr/share/live/images/xfce-desktop>"
-msgstr ""
+msgstr "B</usr/share/live/images/xfce-desktop>"
 
 #. type: SH
 #: en/live-images.7:25
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "SIEHE AUCH"
 
 #. type: Plain text
 #: en/live-images.7:27
 msgid "I<live-boot>(7)"
-msgstr ""
+msgstr "I<live-boot>(7)"
 
 #. type: Plain text
 #: en/live-images.7:29
 msgid "I<live-build>(7)"
-msgstr ""
+msgstr "I<live-build>(7)"
 
 #. type: Plain text
 #: en/live-images.7:31
 msgid "I<live-config>(7)"
-msgstr ""
+msgstr "I<live-config>(7)"
 
 #. type: Plain text
 #: en/live-images.7:33
 msgid "I<live-tools>(7)"
-msgstr ""
+msgstr "I<live-tools>(7)"
 
 #. type: SH
 #: en/live-images.7:34
 #, no-wrap
 msgid "HOMEPAGE"
-msgstr ""
+msgstr "HOMEPAGE"
 
 #. type: Plain text
 #: en/live-images.7:36
@@ -144,12 +146,15 @@ msgid ""
 "on the homepage at E<lt>I<http://live.debian.net/>E<gt> and in the manual at "
 "E<lt>I<http://live.debian.net/manual/>E<gt>."
 msgstr ""
+"Weitere Informationen über live-debconfig und das Debian Live Projekt können "
+"auf der Homepage unter E<lt>I<http://live.debian.net/>E<gt> und im Handbuch "
+"unter E<lt>I<http://live.debian.net/manual/>E<gt> gefunden werden."
 
 #. type: SH
 #: en/live-images.7:37
 #, no-wrap
 msgid "BUGS"
-msgstr ""
+msgstr "FEHLER"
 
 #. type: Plain text
 #: en/live-images.7:39
@@ -159,15 +164,22 @@ msgid ""
 "by writing a mail to the Debian Live mailing list at E<lt>I<debian-"
 "live@lists.debian.org>E<gt>."
 msgstr ""
+"Fehler können durch Einreichen eines Fehlerberichtes für das live-debconfig "
+"Paket im Debian Bug Tracking System unter E<lt>I<http://bugs.debian.org/"
+">E<gt> oder durch Senden einer E-Mail an die Debian Live Mailing Liste unter "
+"E<lt>I<debian-live@lists.debian.org>E<gt> (englischsprachig) mitgeteilt "
+"werden."
 
 #. type: SH
 #: en/live-images.7:40
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "AUTOR"
 
 #. type: Plain text
 #: en/live-images.7:41
 msgid ""
 "live-images was written by Daniel Baumann E<lt>I<daniel@debian.org>E<gt>."
 msgstr ""
+"live-debconfig wurde von Daniel Baumann E<lt>I<daniel@debian.org>E<gt> "
+"geschrieben."
