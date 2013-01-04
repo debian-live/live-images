@@ -1,3 +1,24 @@
+live-images (4.0~a3-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Correcting fglrx dkms package name.
+  * Updating fuse package name in rescue list.
+  * Dropping pre-wheezy conditionals in rescue list.
+
+  [ Richard Nelson ]
+  * Drop afio and tob in rescue package-lists.
+  * Drop honeyd in rescue package-lists.
+
+  [ Daniel Baumann ]
+  * Including broadcom-sta-dkms in dkms package lists.
+  * Including nvidia vdpau related packages in dkms package lists.
+  * Harmonizing package descriptions.
+  * Updating year in all copyright notices.
+  * Updating manpage year handling for 2013.
+  * Completing German manpage translation.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 04 Jan 2013 10:59:10 +0100
+
 live-images (4.0~a2-1) unstable; urgency=low
 
   * Adding dkms package list with open-vm, virtualbox-guest, fglrx, and
