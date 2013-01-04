@@ -10,12 +10,16 @@ virtualbox-guest-utils virtualbox-guest-x11
 pciutils
 
 #if ARCHIVE_AREAS non-free
+	# broadcom-sta
+	broadcom-sta-dkms
+
 	# fglrx-driver
-	fglrx-driver-dkms
+	fglrx-modules-dkms
 	fglrx-driver fglrx-control
 
 	# nvidia-graphics-drivers
 	nvidia-kernel-dkms
 	nvidia-glx xserver-xorg-video-nvidia
 	nvidia-settings nvidia-xconfig nvclock
+	nvidia-vdpau-driver vdpau-va-driver
 #endif

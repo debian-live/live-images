@@ -67,13 +67,7 @@ b43-fwcutter
 
 # Backup
 dar gddrescue dump
-#if DISTRIBUTION squeeze
-ddrescue
-#endif
 mt-st
-#if DISTRIBUTION sid
-afio tob
-#endif
 dar duplicity
 
 # File comparison
@@ -163,12 +157,7 @@ arpwatch
 atsar
 bmon
 ethstatus
-#if DISTRIBUTION squeeze
-ettercap
-#endif
-#nif DISTRIBUTION squeeze
 ettercap-text-only
-#endif
 geoip-bin
 hp-search-mac
 icmpinfo
@@ -202,9 +191,6 @@ crashme
 dbench
 doscan
 dsniff
-#nif DISTRIBUTION wheezy
-honeyd
-#endif
 hping3
 icmpush
 macchanger
@@ -246,22 +232,16 @@ btrfs-tools
 cryptsetup
 dmraid
 e2fsprogs
-fuse-utils
+fuse
 hfsplus
 hfsutils
 jfsutils
-#if DISTRIBUTION squeeze
-lde
-#endif
 lsscsi
 lvm2
 mdadm
 mtools
 nilfs-tools
 ntfs-3g
-#if DISTRIBUTION squeeze
-ntfsprogs
-#endif
 reiser4progs
 dmsetup
 
@@ -279,9 +259,6 @@ cpuid x86info
 #endif
 hwinfo
 tofrodos
-#if DISTRIBUTION squeeze
-rpncalc
-#endif
 hal
 dc
 bc
@@ -290,12 +267,7 @@ chkrootkit
 
 rkhunter
 clamav
-#if DISTRIBUTION squeeze
-clamav-data
-#endif
-#if DISTRIBUTION wheezy sid
 clamav-freshclam
-#endif
 smbclient
 nfs-common
 wireless-tools
@@ -319,9 +291,6 @@ expect
 gpm
 
 # Network servers:
-#if DISTRIBUTION squeeze
-thttpd
-#endif
 isc-dhcp-server
 hostap-utils
 hostapd
