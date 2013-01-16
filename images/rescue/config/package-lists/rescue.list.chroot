@@ -157,7 +157,9 @@ arpwatch
 atsar
 bmon
 ethstatus
+#if DISTRIBUTION sid
 ettercap-text-only
+#endif
 geoip-bin
 hp-search-mac
 icmpinfo
