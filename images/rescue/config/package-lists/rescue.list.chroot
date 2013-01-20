@@ -157,7 +157,9 @@ arpwatch
 atsar
 bmon
 ethstatus
+#if DISTRIBUTION sid
 ettercap-text-only
+#endif
 geoip-bin
 hp-search-mac
 icmpinfo
@@ -173,9 +175,7 @@ netdiscover
 nload
 nsca
 nstreams
-#if DISTRIBUTION sid
 ntop
-#endif
 saidar
 samhain
 scanssh
