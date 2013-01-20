@@ -1,3 +1,13 @@
+live-images (4.0~a4-1) unstable; urgency=low
+
+  * Marking ettercap-text-only as sid only.
+  * Unmarking ntop as sid only.
+  * Including i965-va-driver in sid on the desktop images.
+  * Removing config/control for live-build 4.x in auto/clean scripts too.
+  * Adding config/control for live-build 4.x in gitignore files too.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 20 Jan 2013 15:08:51 +0100
+
 live-images (4.0~a3-1) unstable; urgency=low
 
   [ Daniel Baumann ]
