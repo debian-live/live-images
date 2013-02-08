@@ -1,3 +1,14 @@
+live-images (4.0~a5-1) unstable; urgency=low
+
+  * Dropping dpkg compression level.
+  * Adding hook to disable isc-dhcp-server in rescue image.
+  * Lowering strict depends on live-build 3.0 to be fulfillable with live-
+    build pre-releases.
+  * Adding initial set of bootloader themes.
+  * Don't dereference symlinks for image configs in toplevel makefile.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 09 Feb 2013 00:29:33 +0100
+
 live-images (4.0~a4-1) unstable; urgency=low
 
   * Marking ettercap-text-only as sid only.
