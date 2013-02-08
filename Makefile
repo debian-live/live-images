@@ -50,7 +50,7 @@ build:
 install:
 	# Installing image configurations
 	mkdir -p $(DESTDIR)/usr/share/live
-	cp -aL images $(DESTDIR)/usr/share/live
+	cp -a images $(DESTDIR)/usr/share/live
 
 	# Installing shared data
 	for IMAGE in $(DESTDIR)/usr/share/live/images/*; do cp VERSION $${IMAGE}/docs; done
