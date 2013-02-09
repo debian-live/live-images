@@ -26,7 +26,7 @@ Description: live-build configurations (metapackage)
 
 Package: live-image-gnome-desktop
 Architecture: all
-Depends: ${misc:Depends}, live-build (>= 3.0~)
+Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
@@ -38,7 +38,7 @@ Description: live-build configuration for the GNOME desktop live images
 
 Package: live-image-kde-desktop
 Architecture: all
-Depends: ${misc:Depends}, live-build (>= 3.0~)
+Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
@@ -50,7 +50,7 @@ Description: live-build configuration for the KDE live images
 
 Package: live-image-lxde-desktop
 Architecture: all
-Depends: ${misc:Depends}, live-build (>= 3.0~)
+Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
@@ -62,7 +62,7 @@ Description: live-build configuration for the LXDE desktop live images
 
 Package: live-image-rescue
 Architecture: all
-Depends: ${misc:Depends}, live-build (>= 3.0~)
+Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
@@ -74,7 +74,7 @@ Description: live-build configuration for the rescue live images
 
 Package: live-image-standard
 Architecture: all
-Depends: ${misc:Depends}, live-build (>= 3.0~)
+Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
@@ -86,7 +86,7 @@ Description: live-build configuration for the standard live images
 
 Package: live-image-xfce-desktop
 Architecture: all
-Depends: ${misc:Depends}, live-build (>= 3.0~)
+Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
