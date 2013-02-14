@@ -1,3 +1,12 @@
+live-images (4.0~a6-1) unstable; urgency=low
+
+  * Adjusting depends against live-build again, it needs live-build
+    3.0.0-1 or newer now.
+  * Removing superfluous menu default directive in installer syslinux
+    menues.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 14 Feb 2013 19:24:24 +0100
+
 live-images (4.0~a5-1) unstable; urgency=low
 
   * Dropping dpkg compression level.
