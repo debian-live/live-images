@@ -1,7 +1,5 @@
 task-gnome-desktop
-task-laptop
 task-print-server
-task-ssh-server
 
 #nif DISTRIBUTION wheezy
 	plymouth plymouth-drm plymouth-x11
