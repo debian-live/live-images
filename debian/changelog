@@ -1,3 +1,11 @@
+live-images (4.0~a9-1) unstable; urgency=low
+
+  * Correcting spelling typos, thanks to Adam D. Barratt <adam@adam-
+    barratt.org.uk>.
+  * Updating live-manual meta-package name in package lists.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 02 Mar 2013 07:22:01 +0100
+
 live-images (4.0~a8-1) unstable; urgency=low
 
   * Expliclity setting linux flavours to not rely on internal live-build
