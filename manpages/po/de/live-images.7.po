@@ -1,13 +1,13 @@
 # German translations for live-images
-# Copyright (C) 2006-2013 Daniel Baumann <daniel@debian.org>
+# Copyright (C) 2006-2013 Daniel Baumann <mail@daniel-baumann.ch>
 # This file is distributed under the same license as the live-images package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: live-images 4.0~a9-1\n"
-"POT-Creation-Date: 2013-03-02 07:21+0100\n"
+"Project-Id-Version: live-images 4.0~a10-1\n"
+"POT-Creation-Date: 2013-03-10 22:35+0100\n"
 "PO-Revision-Date: 2010-05-24 09:59+0300\n"
-"Last-Translator: Daniel Baumann <daniel@debian.org>\n"
+"Last-Translator: Daniel Baumann <mail@daniel-baumann.ch>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -24,14 +24,14 @@ msgstr "LIVE-IMAGES"
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2013-03-02"
-msgstr "02.03.2013"
+msgid "2013-03-10"
+msgstr "10.03.2013"
 
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "4.0~a9-1"
-msgstr "4.0~a9-1"
+msgid "4.0~a10-1"
+msgstr "4.0~a10-1"
 
 #. type: TH
 #: en/live-images.7:9
@@ -179,7 +179,8 @@ msgstr "AUTOR"
 #. type: Plain text
 #: en/live-images.7:41
 msgid ""
-"live-images was written by Daniel Baumann E<lt>I<daniel@debian.org>E<gt>."
+"live-images was written by Daniel Baumann E<lt>I<mail@daniel-baumann."
+"ch>E<gt>."
 msgstr ""
-"live-images wurde von Daniel Baumann E<lt>I<daniel@debian.org>E<gt> "
+"live-images wurde von Daniel Baumann E<lt>I<mail@daniel-baumann.ch>E<gt> "
 "geschrieben."
