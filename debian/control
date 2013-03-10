@@ -9,7 +9,7 @@ Homepage: http://live-systems.org/devel/live-images/
 Vcs-Browser: http://live-systems.org/gitweb/?p=live-images.git
 Vcs-Git: git://live-systems.org/git/live-images.git
 
-Package: live-image-all
+Package: live-images
 Architecture: all
 Section: metapackages
 Depends:
