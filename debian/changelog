@@ -1,3 +1,9 @@
+live-images (4.0~a10-1) unstable; urgency=low
+
+  * Removing all references to my old email address.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 10 Mar 2013 22:35:01 +0100
+
 live-images (4.0~a9-1) unstable; urgency=low
 
   * Correcting spelling typos, thanks to Adam D. Barratt <adam@adam-
