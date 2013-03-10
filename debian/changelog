@@ -4,14 +4,14 @@ live-images (4.0~a9-1) unstable; urgency=low
     barratt.org.uk>.
   * Updating live-manual meta-package name in package lists.
 
- -- Daniel Baumann <daniel@debian.org>  Sat, 02 Mar 2013 07:22:01 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sat, 02 Mar 2013 07:22:01 +0100
 
 live-images (4.0~a8-1) unstable; urgency=low
 
   * Expliclity setting linux flavours to not rely on internal live-build
     defaults.
 
- -- Daniel Baumann <daniel@debian.org>  Fri, 01 Mar 2013 10:26:44 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Fri, 01 Mar 2013 10:26:44 +0100
 
 live-images (4.0~a7-1) unstable; urgency=low
 
@@ -24,7 +24,7 @@ live-images (4.0~a7-1) unstable; urgency=low
   * Shuffeling package lists arround to include task-laptop and task-ssh-
     server on all images by default.
 
- -- Daniel Baumann <daniel@debian.org>  Sun, 17 Feb 2013 19:36:01 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 17 Feb 2013 19:36:01 +0100
 
 live-images (4.0~a6-1) unstable; urgency=low
 
@@ -33,7 +33,7 @@ live-images (4.0~a6-1) unstable; urgency=low
   * Removing superfluous menu default directive in installer syslinux
     menues.
 
- -- Daniel Baumann <daniel@debian.org>  Thu, 14 Feb 2013 19:24:24 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Thu, 14 Feb 2013 19:24:24 +0100
 
 live-images (4.0~a5-1) unstable; urgency=low
 
@@ -44,7 +44,7 @@ live-images (4.0~a5-1) unstable; urgency=low
   * Adding initial set of bootloader themes.
   * Don't dereference symlinks for image configs in toplevel makefile.
 
- -- Daniel Baumann <daniel@debian.org>  Sat, 09 Feb 2013 00:29:33 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sat, 09 Feb 2013 00:29:33 +0100
 
 live-images (4.0~a4-1) unstable; urgency=low
 
@@ -54,7 +54,7 @@ live-images (4.0~a4-1) unstable; urgency=low
   * Removing config/control for live-build 4.x in auto/clean scripts too.
   * Adding config/control for live-build 4.x in gitignore files too.
 
- -- Daniel Baumann <daniel@debian.org>  Sun, 20 Jan 2013 15:08:51 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 20 Jan 2013 15:08:51 +0100
 
 live-images (4.0~a3-1) unstable; urgency=low
 
@@ -75,7 +75,7 @@ live-images (4.0~a3-1) unstable; urgency=low
   * Updating manpage year handling for 2013.
   * Completing German manpage translation.
 
- -- Daniel Baumann <daniel@debian.org>  Fri, 04 Jan 2013 10:59:10 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Fri, 04 Jan 2013 10:59:10 +0100
 
 live-images (4.0~a2-1) unstable; urgency=low
 
@@ -92,10 +92,10 @@ live-images (4.0~a2-1) unstable; urgency=low
     mimic default taskselb behaviour within debian-installer.
   * Trimming filename of desktop package lists for easier diffing.
 
- -- Daniel Baumann <daniel@debian.org>  Mon, 17 Dec 2012 20:38:14 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Mon, 17 Dec 2012 20:38:14 +0100
 
 live-images (4.0~a1-1) unstable; urgency=low
 
   * Initial release.
 
- -- Daniel Baumann <daniel@debian.org>  Thu, 13 Dec 2012 17:19:31 +0100
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Thu, 13 Dec 2012 17:19:31 +0100
