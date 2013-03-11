@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-config VERSION\n"
-"POT-Creation-Date: 2013-03-10 22:35+0100\n"
+"POT-Creation-Date: 2013-03-11 06:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2013-03-10"
+msgid "2013-03-11"
 msgstr ""
 
 #. type: TH
@@ -37,7 +37,7 @@ msgstr ""
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "Debian Live Project"
+msgid "Live Systems Project"
 msgstr ""
 
 #. type: SH
@@ -141,9 +141,9 @@ msgstr ""
 #. type: Plain text
 #: en/live-images.7:36
 msgid ""
-"More information about live-images and the Debian Live project can be found "
-"on the homepage at E<lt>I<http://live.debian.net/>E<gt> and in the manual at "
-"E<lt>I<http://live.debian.net/manual/>E<gt>."
+"More information about live-images and the Live Systems project can be found "
+"on the homepage at E<lt>I<http://live-systems.org/>E<gt> and in the manual "
+"at E<lt>I<http://live-systems.org/manual/>E<gt>."
 msgstr ""
 
 #. type: SH
@@ -156,9 +156,9 @@ msgstr ""
 #: en/live-images.7:39
 msgid ""
 "Bugs can be reported by submitting a bugreport for the live-images package "
-"in the Debian Bug Tracking System at E<lt>I<http://bugs.debian.org/>E<gt> or "
-"by writing a mail to the Debian Live mailing list at E<lt>I<debian-"
-"live@lists.debian.org>E<gt>."
+"in the Bug Tracking System at E<lt>I<http://bugs.debian.org/>E<gt> or by "
+"writing a mail to the Live Systems mailing list at E<lt>I<debian-live@lists."
+"debian.org>E<gt>."
 msgstr ""
 
 #. type: SH
