@@ -1,0 +1,88 @@
+#!/bin/sh
+
+set -e
+
+_FLAVOURS="standard rescue gnome-desktop kde-desktop lxde-desktop xfce-desktop"
+_NAME="debian-wheezy-live-rc2"
+_SETS="official unofficial"
+
+_ARCHITECTURE="$(dpkg --print-architecture)"
+
+git clone git://live-systems.org/git/live-images.git
+cd live-images/images
+
+for FLAVOUR in ${_FLAVOURS}
+do
+	cd ${_FLAVOUR}
+
+	for SET in ${_SETS}
+	do
+		case "${_SET}" in
+			official)
+				_AREAS=""
+				_SUFFIX=""
+				;;
+
+			unofficial)
+				_AREAS="--archive-areas 'main contrib non-free'"
+				_SUFFIX="+nonfree"
+				;;
+		esac
+
+		# iso-hybrid
+		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} --source true
+		lb build
+		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} --source false
+
+		mv build.log               ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.log
+		mv binary.contents         ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.contents
+		mv binary.hybrid.iso       ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso
+		mv binary.hybrid.iso.zsync ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.zsync
+		mv binary.packages         ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.packages
+
+		sed -i -e "s|binary.hybrid.iso|${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso|g" ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.zsync
+
+		# web
+		cp ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.packages ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.squashfs.packages
+		cp binary/live/filesystem.squashfs ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.squashfs
+
+		case "${_ARCHITECTURE}" in
+			i386)
+				cp binary/live/vmlinuz1    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.vmlinuz1    || true
+				cp binary/live/initrd1.img ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.initrd1.img || true
+				cp binary/live/vmlinuz2    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.vmlinuz2    || true
+				cp binary/live/initrd2.img ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.initrd2.img || true
+				;;
+
+			*)
+				cp binary/live/vmlinuz    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.vmlinuz    || true
+				cp binary/live/initrd.img ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.initrd.img || true
+				;;
+		esac
+
+		if [ "${_ARCHITECTURE}" = "i386" ]
+		then
+			# sources
+			mv source.debian.contents      ${_NAME}-source-${_FLAVOUR}${_SUFFIX}.debian.tar.contents
+			mv source.debian.tar           ${_NAME}-source-${_FLAVOUR}${_SUFFIX}.debian.tar
+			mv source.debian-live.contents ${_NAME}-source-${_FLAVOUR}${_SUFFIX}.debian-live.tar.contents
+			mv source.debian-live.tar      ${_NAME}-source-${_FLAVOUR}${_SUFFIX}.debian-live.tar
+		fi
+
+		# net
+		lb clean
+		lb config -b netboot --archive-areas "${_AREAS}"
+		lb build
+
+		mv build.log          ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.log
+		mv binary.contents    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.contents
+		mv binary.netboot.tar ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.tar
+		mv binary.packages    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.packages
+
+		mv debian-* ../
+		lb clean
+	done
+
+	cd ..
+	rm -rf ${_FLAVOUR}
+done
