@@ -20,19 +20,21 @@ do
 		case "${_SET}" in
 			official)
 				_AREAS=""
+				_BOOTAPPEND=""
 				_SUFFIX=""
 				;;
 
 			unofficial)
 				_AREAS="--archive-areas 'main contrib non-free'"
+				_BOOTAPPEND="--bootappend-live 'boot=live config quiet splash nouveau.modeset=0 radeon.modeset=0'"
 				_SUFFIX="+nonfree"
 				;;
 		esac
 
 		# iso-hybrid
-		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} --source true
+		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} ${_BOOTAPPEND} --source true
 		lb build
-		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} --source false
+		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} ${_BOOTAPPEND} --source false
 
 		mv build.log               ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.log
 		mv binary.contents         ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.contents
