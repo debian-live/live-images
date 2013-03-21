@@ -12,7 +12,7 @@ SHELL := sh -e
 
 LANGUAGES = $(shell cd manpages/po && ls)
 
-SCRIPTS = images/*/auto/* images/*/config/hooks/*
+SCRIPTS = examples/* images/*/auto/* images/*/config/hooks/*
 
 all: build
 
