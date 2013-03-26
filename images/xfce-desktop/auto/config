@@ -12,4 +12,11 @@ case "$(dpkg --print-architecture)" in
 		;;
 esac
 
-lb config noauto --clean --ignore-system-defaults --mode debian --debian-installer live --linux-flavours "${_LINUX_FLAVOURS}" --linux-packages "linux-image linux-headers" "${@}"
+lb config noauto \
+	--clean \
+	--ignore-system-defaults \
+	--mode debian \
+	--debian-installer live \
+	--linux-flavours "${_LINUX_FLAVOURS}" \
+	--linux-packages "linux-image linux-headers" \
+"${@}"
