@@ -32,9 +32,7 @@ do
 		esac
 
 		# iso-hybrid
-		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} ${_BOOTAPPEND} --source true
 		lb build
-		[ "${_ARCHITECTURE}" = i386 ] && lb config ${_AREAS} ${_BOOTAPPEND} --source false
 
 		mv build.log               ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.log
 		mv binary.contents         ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.iso.contents
@@ -62,7 +60,7 @@ do
 				;;
 		esac
 
-		if [ "${_ARCHITECTURE}" = "i386" ]
+		if ls source.* > /dev/null 2>&1
 		then
 			# sources
 			mv source.debian.contents      ${_NAME}-source-${_FLAVOUR}${_SUFFIX}.debian.tar.contents
