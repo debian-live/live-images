@@ -12,7 +12,7 @@ SHELL := sh -e
 
 LANGUAGES = $(shell cd manpages/po && ls)
 
-SCRIPTS = images/*/auto/* images/*/config/hooks/*
+SCRIPTS = examples/* images/*/auto/* images/*/config/hooks/*
 
 all: build
 
@@ -57,7 +57,7 @@ install:
 
 	# Installing docs
 	mkdir -p $(DESTDIR)/usr/share/doc/live-images
-	cp COPYING $(DESTDIR)/usr/share/doc/live-images
+	cp -r COPYING examples $(DESTDIR)/usr/share/doc/live-images
 
 	# Installing manpages
 	for MANPAGE in manpages/en/*; \
