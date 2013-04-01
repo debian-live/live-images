@@ -1,3 +1,22 @@
+live-images (4.0~a11-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Debranding package for derivatives.
+  * Adding script used to build pre-built wheezy image sets.
+  * Building non-free set with KMS disabled for radeon and nouveau for the
+    time being to workaround boot errors caused by missing integration
+    with the binary-only drivers (Closes: #703179).
+  * Adding examples to automatic syntax checking in toplevel makefile.
+  * Intending lb config options for easier diffing.
+  * Handling source enabled/disabled trigger from within auto/config
+    rather than from the build script.
+
+  [ Ben Armstrong ]
+  * Adding sudo to installer list to ensure post-install cleanup doesn't
+    remove it.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Mon, 01 Apr 2013 08:40:02 +0200
+
 live-images (4.0~a10-1) unstable; urgency=low
 
   * Removing all references to my old email address.
