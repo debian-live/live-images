@@ -1,3 +1,10 @@
+live-images (4.0~a13-1) unstable; urgency=low
+
+  * Adding temporary conflicts/replaces to live-images-all (Closes:
+    #704808).
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sat, 06 Apr 2013 09:02:39 +0200
+
 live-images (4.0~a12-1) unstable; urgency=low
 
   * Renaming live-image-all metapackage to live-images for consistency
