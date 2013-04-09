@@ -1,3 +1,10 @@
+live-images (4.0~a14-1) unstable; urgency=low
+
+  * Correcting typo in package name for live-image-all conflicts/replaces
+    (Closes: #704808).
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Tue, 09 Apr 2013 09:48:21 +0200
+
 live-images (4.0~a13-1) unstable; urgency=low
 
   * Adding temporary conflicts/replaces to live-images-all (Closes:
