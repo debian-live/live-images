@@ -5,7 +5,5 @@ task-print-server
 	plymouth plymouth-drm plymouth-x11
 #endif
 
-#if DISTRIBUTION sid
-	#gstreamer-vaapi
-	i965-va-driver
-#endif
+#gstreamer-vaapi
+i965-va-driver
