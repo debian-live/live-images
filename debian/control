@@ -16,8 +16,6 @@ Depends:
  ${misc:Depends}, live-image-gnome-desktop, live-image-kde-desktop,
  live-image-lxde-desktop, live-image-rescue, live-image-standard,
  live-image-xfce-desktop
-Conflicts: live-image-all
-Replaces: live-image-all
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
