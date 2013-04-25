@@ -1,3 +1,10 @@
+live-images (4.0~a15-1) unstable; urgency=low
+
+  * Including i965-va-driver for wheezy now too.
+  * Dropping conflicts/replaces to live-image-all again.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Thu, 25 Apr 2013 12:57:33 +0200
+
 live-images (4.0~a14-1) unstable; urgency=low
 
   * Correcting typo in package name for live-image-all conflicts/replaces
