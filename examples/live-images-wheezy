@@ -11,7 +11,7 @@ _ARCHITECTURE="$(dpkg --print-architecture)"
 git clone git://live-systems.org/git/live-images.git
 cd live-images/images
 
-for FLAVOUR in ${_FLAVOURS}
+for _FLAVOUR in ${_FLAVOURS}
 do
 	cd ${_FLAVOUR}
 
