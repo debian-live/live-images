@@ -1,3 +1,11 @@
+live-images (4.0~a16-1) unstable; urgency=low
+
+  * Splitting up dkms package lists in an install and a live-only part.
+  * Correcting variable typo in example build script.
+  * Updating example build script for wheezy.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 05 May 2013 08:14:15 +0200
+
 live-images (4.0~a15-1) unstable; urgency=low
 
   * Including i965-va-driver for wheezy now too.
