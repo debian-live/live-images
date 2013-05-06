@@ -3,7 +3,7 @@
 set -e
 
 _FLAVOURS="standard rescue gnome-desktop kde-desktop lxde-desktop xfce-desktop"
-_NAME="debian-wheezy-live-rc2"
+_NAME="debian-live-7.0.0"
 _SETS="official unofficial"
 
 _ARCHITECTURE="$(dpkg --print-architecture)"
@@ -11,11 +11,11 @@ _ARCHITECTURE="$(dpkg --print-architecture)"
 git clone git://live-systems.org/git/live-images.git
 cd live-images/images
 
-for FLAVOUR in ${_FLAVOURS}
+for _FLAVOUR in ${_FLAVOURS}
 do
 	cd ${_FLAVOUR}
 
-	for SET in ${_SETS}
+	for _SET in ${_SETS}
 	do
 		case "${_SET}" in
 			official)
