@@ -1,3 +1,17 @@
+live-images (4.0~a17-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Checking out specified tag in wheezy example script since live-images
+    is not in wheezy itself.
+
+  [ Richard Nelson ]
+  * Return the error code from auto/build script.
+
+  [ Daniel Baumann ]
+  * Including memtest86+ in syslinux menu (Closes: #709887).
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Mon, 27 May 2013 17:27:22 +0200
+
 live-images (4.0~a16-1) unstable; urgency=low
 
   * Splitting up dkms package lists in an install and a live-only part.
