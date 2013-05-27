@@ -3,13 +3,16 @@
 set -e
 
 _FLAVOURS="standard rescue gnome-desktop kde-desktop lxde-desktop xfce-desktop"
-_NAME="debian-live-7.0.0"
+_NAME="debian-live-7.0.1"
 _SETS="official unofficial"
+
+_TAG="debian/4.0_a17-1"
 
 _ARCHITECTURE="$(dpkg --print-architecture)"
 
 git clone git://live-systems.org/git/live-images.git
 cd live-images/images
+git checkout ${_TAG}
 
 for _FLAVOUR in ${_FLAVOURS}
 do
