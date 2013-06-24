@@ -27,7 +27,8 @@ aview mc nano-tiny mg vim wdiff hexedit nvi tweak
 dvd+rw-tools genisoimage sdparm hdparm blktool parted partimage secure-delete scsitools smartmontools testdisk wodim wipe hddtemp bonnie++
 par2 dvd+rw-tools
 fsarchiver
-#if DISTRIBUTION sid
+#if DISTRIBUTION sid jessie
+clonezilla
 nwipe
 #endif
 
