@@ -272,6 +272,7 @@ smbclient
 nfs-common
 wireless-tools
 wpasupplicant
+reaver
 
 aide
 tripwire
