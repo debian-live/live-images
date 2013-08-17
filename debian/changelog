@@ -1,3 +1,18 @@
+live-images (4.0~a18-1) unstable; urgency=low
+
+  [ Richard Nelson ]
+  * Revert "Return the error code from auto/build script."
+
+  [ Daniel Baumann ]
+  * Adding exfat-utils and fuse-exfat to rescue package list.
+  * Adding clonezilla in rescue package list.
+  * Removing firmware packages from rescue list, they get pulled in
+    automatically through live-build.
+  * Adding reaver to rescue package list.
+  * Adding note about lb build in images readmefile.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sat, 17 Aug 2013 08:20:20 +0200
+
 live-images (4.0~a17-1) unstable; urgency=low
 
   [ Daniel Baumann ]
