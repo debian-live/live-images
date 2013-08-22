@@ -240,8 +240,8 @@ mdadm
 mtools
 nilfs-tools
 ntfs-3g
+exfat-fuse
 exfat-utils
-fuse-exfat
 reiser4progs
 dmsetup
 
