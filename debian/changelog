@@ -1,3 +1,10 @@
+live-images (4.0~a19-1) unstable; urgency=low
+
+  * Correcting exfat-fuse package name in rescue package list.
+  * Updating tag for 7.0.1 images in example build script.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Thu, 22 Aug 2013 10:56:21 +0200
+
 live-images (4.0~a18-1) unstable; urgency=low
 
   [ Richard Nelson ]
