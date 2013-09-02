@@ -12,7 +12,11 @@ _ARCHITECTURE="$(dpkg --print-architecture)"
 
 git clone git://live-systems.org/git/live-images.git
 cd live-images/images
-git checkout ${_TAG}
+
+if [ -z "${_TAG}" ]
+then
+	git checkout ${_TAG}
+fi
 
 for _FLAVOUR in ${_FLAVOURS}
 do

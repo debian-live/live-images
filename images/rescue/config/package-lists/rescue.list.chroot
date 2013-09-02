@@ -64,7 +64,7 @@ b43-fwcutter
 #endif
 
 # Backup
-dar gddrescue dump
+dar gddrescue dump dcfldd
 mt-st
 dar duplicity
 
