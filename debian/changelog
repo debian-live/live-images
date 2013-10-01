@@ -1,3 +1,10 @@
+live-images (4.0~alpha20-1) unstable; urgency=low
+
+  * Updating example script for later 7.2 images.
+  * Adding dcfldd to rescue package list.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Tue, 01 Oct 2013 21:12:28 +0200
+
 live-images (4.0~a19-1) unstable; urgency=low
 
   * Correcting exfat-fuse package name in rescue package list.
