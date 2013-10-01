@@ -3,7 +3,7 @@
 set -e
 
 _FLAVOURS="standard rescue gnome-desktop kde-desktop lxde-desktop xfce-desktop"
-_NAME="debian-live-7.0.1"
+_NAME="debian-live-7.2"
 _SETS="official unofficial"
 
 _TAG="debian/4.0_a19-1"
@@ -12,7 +12,11 @@ _ARCHITECTURE="$(dpkg --print-architecture)"
 
 git clone git://live-systems.org/git/live-images.git
 cd live-images/images
-git checkout ${_TAG}
+
+if [ -z "${_TAG}" ]
+then
+	git checkout ${_TAG}
+fi
 
 for _FLAVOUR in ${_FLAVOURS}
 do
@@ -73,15 +77,16 @@ do
 		fi
 
 		# net
-		lb clean
-		lb config -b netboot --archive-areas "${_AREAS}"
-		lb build
+		#lb clean
+		#lb config -b netboot --archive-areas "${_AREAS}"
+		#lb build
 
-		mv build.log          ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.log
-		mv binary.contents    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.contents
-		mv binary.netboot.tar ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.tar
-		mv binary.packages    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.packages
+		#mv build.log          ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.log
+		#mv binary.contents    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.contents
+		#mv binary.netboot.tar ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.tar
+		#mv binary.packages    ${_NAME}-${_ARCHITECTURE}-${_FLAVOUR}${_SUFFIX}.netboot.packages
 
+		# Moving images
 		mv debian-* ../
 		lb clean
 	done
