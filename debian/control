@@ -19,10 +19,15 @@ Depends:
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
-Description: live-build configurations (metapackage)
- Live images are built with live-build configuration trees.
+Description: Live System Image Components (metapackage)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
  .
- This package is a metapackage depending on all available configuration trees.
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package is a metapackage depending on all available configuration
+ directories.
 
 Package: live-image-gnome-desktop
 Architecture: all
@@ -30,11 +35,14 @@ Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
-Description: live-build configuration for the GNOME desktop live images
- Live images are built with live-build configuration trees.
+Description: Live System Image Components (GNOME desktop)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
  .
- This package contains the live-build configuration tree to build the
- GNOME desktop live image.
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the GNOME desktop image.
 
 Package: live-image-kde-desktop
 Architecture: all
@@ -42,11 +50,14 @@ Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
-Description: live-build configuration for the KDE live images
- Live images are built with live-build configuration trees.
+Description: Live System Image Components (KDE desktop)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
  .
- This package contains the live-build configuration tree to build the
- KDE desktop live image.
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the KDE desktop image.
 
 Package: live-image-lxde-desktop
 Architecture: all
@@ -54,11 +65,14 @@ Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
-Description: live-build configuration for the LXDE desktop live images
- Live images are built with live-build configuration trees.
+Description: Live System Image Components (LXDE desktop)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
  .
- This package contains the live-build configuration tree to build the
- LXDE desktop live image.
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the LXDE desktop image.
 
 Package: live-image-rescue
 Architecture: all
@@ -66,11 +80,14 @@ Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
-Description: live-build configuration for the rescue live images
- Live images are built with live-build configuration trees.
+Description: Live System Image Components (rescue)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
  .
- This package contains the live-build configuration tree to build the
- rescue live image.
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the rescue image.
 
 Package: live-image-standard
 Architecture: all
@@ -78,11 +95,14 @@ Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
-Description: live-build configuration for the standard live images
- Live images are built with live-build configuration trees.
+Description: Live System Image Components (standard)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
  .
- This package contains the live-build configuration tree to build the
- standard live image.
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the standard image.
 
 Package: live-image-xfce-desktop
 Architecture: all
@@ -90,8 +110,11 @@ Depends: ${misc:Depends}, live-build (>= 3.0)
 Recommends:
  live-boot-doc, live-config-doc, live-debconfig-doc,
  live-manual-html | live-manual
-Description: live-build configuration for the Xfce desktop live images
- Live images are built with live-build configuration trees.
+Description: Live System Image Components (Xfce desktop)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
  .
- This package contains the live-build configuration tree to build the
- Xfce desktop live image.
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the Xfce desktop image.
