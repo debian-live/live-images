@@ -4,8 +4,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: live-images 4.0~alpha20-1\n"
-"POT-Creation-Date: 2013-10-01 21:12+0300\n"
+"Project-Id-Version: live-images 4.0~alpha21-1\n"
+"POT-Creation-Date: 2013-11-04 08:02+0100\n"
 "PO-Revision-Date: 2010-05-24 09:59+0300\n"
 "Last-Translator: Daniel Baumann <mail@daniel-baumann.ch>\n"
 "Language-Team: none\n"
@@ -24,14 +24,14 @@ msgstr "LIVE-IMAGES"
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2013-10-01"
-msgstr "01.10.2013"
+msgid "2013-11-04"
+msgstr "04.11.2013"
 
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "4.0~alpha20-1"
-msgstr "4.0~alpha20-1"
+msgid "4.0~alpha21-1"
+msgstr "4.0~alpha21-1"
 
 #. type: TH
 #: en/live-images.7:9

@@ -1,3 +1,12 @@
+live-images (4.0~alpha21-1) unstable; urgency=low
+
+  * Updating package descriptions.
+  * Rewrapping control file.
+  * Updating to standards version 3.9.5.
+  * Renaming hook files for live-build 4.0~alpha29.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Mon, 04 Nov 2013 08:02:47 +0100
+
 live-images (4.0~alpha20-1) unstable; urgency=low
 
   * Updating example script for later 7.2 images.
