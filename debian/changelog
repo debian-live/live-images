@@ -1,3 +1,9 @@
+live-images (4.0~alpha22-1) unstable; urgency=low
+
+  * Including zfs-fuse in rescue list (Closes: #731483).
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Thu, 05 Dec 2013 22:20:31 +0100
+
 live-images (4.0~alpha21-1) unstable; urgency=low
 
   * Updating package descriptions.
