@@ -1,3 +1,11 @@
+live-images (4.0~alpha23-1) unstable; urgency=low
+
+  * Updating copyright notices for 2014.
+  * Updating examples for 7.4.
+  * Building with dh --parallel.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Mon, 31 Mar 2014 21:59:12 +0200
+
 live-images (4.0~alpha22-1) unstable; urgency=low
 
   * Including zfs-fuse in rescue list (Closes: #731483).
