@@ -3,10 +3,10 @@
 set -e
 
 _FLAVOURS="standard rescue gnome-desktop kde-desktop lxde-desktop xfce-desktop"
-_NAME="debian-live-7.4"
+_NAME="debian-live-7.5"
 _SETS="official"
 
-_TAG="debian/4.0_alpha22-1"
+_TAG="debian/4.0_alpha23-1"
 
 _ARCHITECTURE="$(dpkg --print-architecture)"
 
