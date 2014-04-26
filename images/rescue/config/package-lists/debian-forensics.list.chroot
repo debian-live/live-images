@@ -1,4 +1,4 @@
-# http://qa.debian.org/developer.php?login=forensics-devel@lists.alioth.debian.org
+# http://qa.debian.org/developer.php?email=forensics-devel@lists.alioth.debian.org
 
 ## Packages available as of lenny
 
@@ -6,10 +6,6 @@
 ext3grep
 galleta
 gpart
-#endif
-
-#if DISTRIBUTION squeeze
-tct
 #endif
 
 grokevt
@@ -36,9 +32,6 @@ ed2k-hash
 guymager
 #endif
 ewf-tools
-#if DISTRIBUTION squeeze
-libguytools1
-#endif
 libphash0
 md5deep
 nasty

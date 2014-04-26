@@ -7,11 +7,16 @@ pciutils
 
 	# fglrx-driver
 	fglrx-modules-dkms
-	fglrx-driver fglrx-control
+	fglrx-driver
+	fglrx-control
 
 	# nvidia-graphics-drivers
 	nvidia-kernel-dkms
-	nvidia-glx xserver-xorg-video-nvidia
-	nvidia-settings nvidia-xconfig nvclock
-	nvidia-vdpau-driver vdpau-va-driver
+	nvidia-glx
+	xserver-xorg-video-nvidia
+	nvidia-settings
+	nvidia-xconfig
+	nvclock
+	nvidia-vdpau-driver
+	vdpau-va-driver
 #endif
