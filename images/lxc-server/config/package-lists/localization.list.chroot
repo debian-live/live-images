@@ -1,0 +1,5 @@
+task-english
+
+#if DISTRIBUTION wheezy
+	console-tools
+#endif

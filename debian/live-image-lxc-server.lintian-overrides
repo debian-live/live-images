@@ -1,0 +1,1 @@
+live-image-lxc-server: package-contains-vcs-control-file usr/share/live/images/lxc-server/.gitignore

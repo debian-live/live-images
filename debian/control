@@ -17,6 +17,7 @@ Depends:
  live-image-gnome-desktop,
  live-image-kde-desktop,
  live-image-lxde-desktop,
+ live-image-lxc-server,
  live-image-rescue,
  live-image-standard,
  live-image-xfce-desktop,
@@ -91,6 +92,25 @@ Description: Live System Image Components (LXDE desktop)
  live system images.
  .
  This package contains the configuration directory for the LXDE desktop image.
+
+Package: live-image-lxc-server
+Architecture: all
+Depends:
+ ${misc:Depends},
+ live-build (>= 3.0),
+Recommends:
+ live-boot-doc,
+ live-config-doc,
+ live-debconfig-doc,
+ live-manual-html | live-manual,
+Description: Live System Image Components (LXC server)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the LXC server image.
 
 Package: live-image-rescue
 Architecture: all
