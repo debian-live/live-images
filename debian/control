@@ -40,7 +40,7 @@ Package: live-image-gnome-desktop
 Architecture: all
 Depends:
  ${misc:Depends},
- live-build (>= 3.0),
+ live-build (>= 4.0~),
 Recommends:
  live-boot-doc,
  live-config-doc,
@@ -59,7 +59,7 @@ Package: live-image-kde-desktop
 Architecture: all
 Depends:
  ${misc:Depends},
- live-build (>= 3.0),
+ live-build (>= 4.0~),
 Recommends:
  live-boot-doc,
  live-config-doc,
@@ -78,7 +78,7 @@ Package: live-image-lxde-desktop
 Architecture: all
 Depends:
  ${misc:Depends},
- live-build (>= 3.0),
+ live-build (>= 4.0~),
 Recommends:
  live-boot-doc,
  live-config-doc,
@@ -97,7 +97,7 @@ Package: live-image-lxc-server
 Architecture: all
 Depends:
  ${misc:Depends},
- live-build (>= 3.0),
+ live-build (>= 4.0~),
 Recommends:
  live-boot-doc,
  live-config-doc,
@@ -116,7 +116,7 @@ Package: live-image-rescue
 Architecture: all
 Depends:
  ${misc:Depends},
- live-build (>= 3.0),
+ live-build (>= 4.0~),
 Recommends:
  live-boot-doc,
  live-config-doc,
@@ -135,7 +135,7 @@ Package: live-image-standard
 Architecture: all
 Depends:
  ${misc:Depends},
- live-build (>= 3.0),
+ live-build (>= 4.0~),
 Recommends:
  live-boot-doc,
  live-config-doc,
@@ -154,7 +154,7 @@ Package: live-image-xfce-desktop
 Architecture: all
 Depends:
  ${misc:Depends},
- live-build (>= 3.0),
+ live-build (>= 4.0~),
 Recommends:
  live-boot-doc,
  live-config-doc,
