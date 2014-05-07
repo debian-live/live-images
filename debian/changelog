@@ -1,3 +1,16 @@
+live-images (4.0~alpha24-1) unstable; urgency=low
+
+  * Updating for wheezy 7.5.
+  * Updating for jessie alpha1.
+  * Adding example scripts for non-free.
+  * Marking console-tools in localization.list.chroot as wheezy-only.
+  * Adding lxc-server image configuration.
+  * Bumping depends on live-build to 4.x.
+  * Using open-vm-tools-desktop package on jessie and newer.
+  * Making package lists derivatives friendlier.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Wed, 07 May 2014 07:04:35 +0200
+
 live-images (4.0~alpha23-1) unstable; urgency=low
 
   * Updating copyright notices for 2014.
