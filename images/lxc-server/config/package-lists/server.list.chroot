@@ -15,5 +15,7 @@ wget
 bridge-utils
 debootstrap
 lxc lxc-stuff python3
-criu
+#if PARENT_ARCHITECTURE amd64 armhf
+	criu
+#endif
 #cgmanager
