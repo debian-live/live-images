@@ -2,7 +2,7 @@
 
 ## Packages available as of lenny
 
-#if ARCHITECTURES amd64 i386
+#if PARENT_ARCHITECTURES amd64 i386
 ext3grep
 galleta
 gpart
@@ -28,7 +28,7 @@ aeskeyfind
 afflib-tools
 chaosreader
 ed2k-hash
-#nif DISTRIBUTION wheezy
+#nif PARENT_DISTRIBUTION wheezy
 guymager
 #endif
 ewf-tools

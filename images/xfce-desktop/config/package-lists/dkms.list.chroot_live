@@ -1,14 +1,14 @@
 # open-vm-tools
 open-vm-dkms
 open-vm-tools
-#if DISTRIBUTION wheezy
+#if PARENT_DISTRIBUTION wheezy
 	open-vm-toolbox
 #endif
-#nif DISTRIBUTION wheezy
+#nif PARENT_DISTRIBUTION wheezy
 	open-vm-tools-desktop
 #endif
 
-#if ARCHIVE_AREAS contrib
+#if PARENT_ARCHIVE_AREAS contrib
 	# virtualbox
 	virtualbox-guest-dkms
 	virtualbox-guest-utils

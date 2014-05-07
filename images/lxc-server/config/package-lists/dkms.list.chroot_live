@@ -2,7 +2,7 @@
 open-vm-dkms
 open-vm-tools
 
-#if ARCHIVE_AREAS contrib
+#if PARENT_ARCHIVE_AREAS contrib
 	# virtualbox
 	virtualbox-guest-dkms
 	virtualbox-guest-utils
