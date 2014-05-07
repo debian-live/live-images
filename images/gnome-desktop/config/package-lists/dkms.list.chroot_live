@@ -1,7 +1,12 @@
 # open-vm-tools
 open-vm-dkms
 open-vm-tools
-open-vm-toolbox
+#if DISTRIBUTION wheezy
+	open-vm-toolbox
+#endif
+#nif DISTRIBUTION wheezy
+	open-vm-tools-desktop
+#endif
 
 #if ARCHIVE_AREAS contrib
 	# virtualbox
