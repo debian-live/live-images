@@ -1,9 +1,9 @@
 task-xfce-desktop
 task-print-server
 
-#nif DISTRIBUTION wheezy
-	plymouth plymouth-drm plymouth-x11
-#endif
+plymouth
+plymouth-drm
+plymouth-x11
 
 #gstreamer-vaapi
 i965-va-driver

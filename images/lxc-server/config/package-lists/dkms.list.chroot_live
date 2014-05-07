@@ -1,0 +1,9 @@
+# open-vm-tools
+open-vm-dkms
+open-vm-tools
+
+#if PARENT_ARCHIVE_AREAS contrib
+	# virtualbox
+	virtualbox-guest-dkms
+	virtualbox-guest-utils
+#endif

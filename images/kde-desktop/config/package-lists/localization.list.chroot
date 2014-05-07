@@ -1,3 +1,5 @@
 task-english
 
-console-tools
+#if PARENT_DISTRIBUTION wheezy
+	console-tools
+#endif

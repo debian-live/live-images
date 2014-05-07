@@ -1,15 +1,11 @@
-# http://qa.debian.org/developer.php?login=forensics-devel@lists.alioth.debian.org
+# http://qa.debian.org/developer.php?email=forensics-devel@lists.alioth.debian.org
 
 ## Packages available as of lenny
 
-#if ARCHITECTURES amd64 i386
+#if PARENT_ARCHITECTURES amd64 i386
 ext3grep
 galleta
 gpart
-#endif
-
-#if DISTRIBUTION squeeze
-tct
 #endif
 
 grokevt
@@ -32,13 +28,10 @@ aeskeyfind
 afflib-tools
 chaosreader
 ed2k-hash
-#nif DISTRIBUTION wheezy
+#nif PARENT_DISTRIBUTION wheezy
 guymager
 #endif
 ewf-tools
-#if DISTRIBUTION squeeze
-libguytools1
-#endif
 libphash0
 md5deep
 nasty

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+LIVE_DEBCONFIG_VERSION="4.0~alpha32-1"
+
+echo "Download live-debconfig ${LIVE_DEBCONFIG_VERSION} to /usr/share/lxc/packages..."
+
+mkdir -p /usr/share/lxc/packages
+cd /usr/share/packages
+
+wget -q http://live-systems.org/files/4.x/packages/live-debconfig/${LIVE_DEBCONFIG_VERSION}/live-debconfig_${LIVE_DEBCONFIG_VERSION}.debian.tar.xz
+wget -q http://live-systems.org/files/4.x/packages/live-debconfig/${LIVE_DEBCONFIG_VERSION}/live-debconfig_${LIVE_DEBCONFIG_VERSION}.dsc
+wget -q http://live-systems.org/files/4.x/packages/live-debconfig/${LIVE_DEBCONFIG_VERSION}/live-debconfig_${LIVE_DEBCONFIG_VERSION}_all.deb
+wget -q http://live-systems.org/files/4.x/packages/live-debconfig/${LIVE_DEBCONFIG_VERSION}/live-debconfig_${LIVE_DEBCONFIG_VERSION}_amd64.changes
+wget -q http://live-systems.org/files/4.x/packages/live-debconfig/${LIVE_DEBCONFIG_VERSION}/live-debconfig_${LIVE_DEBCONFIG_VERSION}.orig.tar.xz

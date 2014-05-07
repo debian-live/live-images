@@ -1,0 +1,28 @@
+#!/bin/sh
+
+set -e
+
+case "$(dpkg --print-architecture)" in
+	amd64)
+		_LINUX_FLAVOURS="amd64"
+		_SOURCE="true"
+		;;
+
+	i386)
+		_LINUX_FLAVOURS="486 686-pae"
+		_SOURCE="false"
+		;;
+esac
+
+lb config noauto \
+	--clean \
+	--ignore-system-defaults \
+	--mode debian \
+	--distribution sid \
+	--debian-installer-distribution jessie \
+	--debian-installer live \
+	--bootappend-live "boot=live components nonetworking nopersistent -- vga=normal video=vesa quiet nomodeset nosplash cgroup_enable=memory swapaccount=1" \
+	--linux-flavours "${_LINUX_FLAVOURS}" \
+	--linux-packages "linux-image linux-headers" \
+	--source "${_SOURCE}" \
+"${@}"
