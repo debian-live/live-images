@@ -38,7 +38,7 @@ build: po4a.cfg
 		exit 1; \
 	fi
 
-	po4a --keep 0 --package-name live-images po4a.cfg
+	po4a --keep 0 --package-name live-images --package-version $(shell cat ../VERSION) po4a.cfg
 
 clean:
 	rm -rf $(LANGUAGES)
