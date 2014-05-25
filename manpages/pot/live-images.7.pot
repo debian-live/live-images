@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the live-config package.
+# This file is distributed under the same license as the live-images package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: live-config VERSION\n"
-"POT-Creation-Date: 2014-05-07 07:04+0200\n"
+"Project-Id-Version: live-images 4.0~alpha24-1\n"
+"POT-Creation-Date: 2014-05-25 13:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2014-05-07"
+msgid "2014-05-25"
 msgstr ""
 
 #. type: TH
