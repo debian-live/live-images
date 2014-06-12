@@ -18,8 +18,6 @@ lb config noauto \
 	--clean \
 	--ignore-system-defaults \
 	--mode debian \
-	--distribution sid \
-	--debian-installer-distribution jessie \
 	--debian-installer live \
 	--bootappend-live "boot=live components nonetworking nopersistent -- vga=normal video=vesa quiet nomodeset nosplash cgroup_enable=memory swapaccount=1" \
 	--linux-flavours "${_LINUX_FLAVOURS}" \
