@@ -2,7 +2,7 @@
 
 set -e
 
-_FLAVOURS="standard rescue gnome-desktop kde-desktop lxde-desktop xfce-desktop"
+_FLAVOURS="standard rescue gnome-desktop kde-desktop lxde-desktop mate-desktop xfce-desktop"
 _NAME="debian-live-8.0~a1"
 _SETS="unofficial"
 _SUFFIX="+nonfree"
