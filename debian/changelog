@@ -1,3 +1,22 @@
+live-images (4.0~alpha25-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Marking criu as amd64 armhf only.
+
+  [ Carlos Zuferri ]
+  * Correcting package name in po4a options.
+  * Removing obsolete flag '--no-backups' from po4a options.
+  * Adding '--package-version' to po4a options.
+  * Updating translation files.
+  * Adding .po integrity check target to manpages/Makefile.
+
+  [ Daniel Baumann ]
+  * Adding mate-desktop image.
+  * Adding lxc-server image to example scripts.
+  * Adding lxc-server image in manpage.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Thu, 12 Jun 2014 08:09:25 +0200
+
 live-images (4.0~alpha24-1) unstable; urgency=low
 
   * Updating for wheezy 7.5.
