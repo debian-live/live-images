@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-images 4.0~alpha24-1\n"
-"POT-Creation-Date: 2014-05-07 07:04+0200\n"
+"POT-Creation-Date: 2014-06-12 08:07+0200\n"
 "PO-Revision-Date: 2010-05-24 09:59+0300\n"
 "Last-Translator: Daniel Baumann <mail@daniel-baumann.ch>\n"
 "Language-Team: none\n"
@@ -24,7 +24,7 @@ msgstr "LIVE-IMAGES"
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2014-05-07"
+msgid "2014-06-12"
 msgstr ""
 
 #. type: TH
@@ -86,61 +86,73 @@ msgstr "B</usr/share/live/images/kde-desktop>"
 #. type: IP
 #: en/live-images.7:20
 #, no-wrap
+msgid "B</usr/share/live/images/lxc-server>"
+msgstr "B</usr/share/live/images/lxc-server>"
+
+#. type: IP
+#: en/live-images.7:21
+#, no-wrap
 msgid "B</usr/share/live/images/lxde-desktop>"
 msgstr "B</usr/share/live/images/lxde-desktop>"
 
 #. type: IP
-#: en/live-images.7:21
+#: en/live-images.7:22
+#, no-wrap
+msgid "B</usr/share/live/images/mate-desktop>"
+msgstr "B</usr/share/live/images/mate-desktop>"
+
+#. type: IP
+#: en/live-images.7:23
 #, no-wrap
 msgid "B</usr/share/live/images/rescue>"
 msgstr "B</usr/share/live/images/rescue>"
 
 #. type: IP
-#: en/live-images.7:22
+#: en/live-images.7:24
 #, no-wrap
 msgid "B</usr/share/live/images/standard>"
 msgstr "B</usr/share/live/images/standard>"
 
 #. type: IP
-#: en/live-images.7:23
+#: en/live-images.7:25
 #, no-wrap
 msgid "B</usr/share/live/images/xfce-desktop>"
 msgstr "B</usr/share/live/images/xfce-desktop>"
 
 #. type: SH
-#: en/live-images.7:25
+#: en/live-images.7:27
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "SIEHE AUCH"
 
 #. type: Plain text
-#: en/live-images.7:27
+#: en/live-images.7:29
 msgid "I<live-boot>(7)"
 msgstr "I<live-boot>(7)"
 
 #. type: Plain text
-#: en/live-images.7:29
+#: en/live-images.7:31
 msgid "I<live-build>(7)"
 msgstr "I<live-build>(7)"
 
 #. type: Plain text
-#: en/live-images.7:31
+#: en/live-images.7:33
 msgid "I<live-config>(7)"
 msgstr "I<live-config>(7)"
 
 #. type: Plain text
-#: en/live-images.7:33
+#: en/live-images.7:35
 msgid "I<live-tools>(7)"
 msgstr "I<live-tools>(7)"
 
 #. type: SH
-#: en/live-images.7:34
+#: en/live-images.7:36
 #, no-wrap
 msgid "HOMEPAGE"
 msgstr "HOMEPAGE"
 
 #. type: Plain text
-#: en/live-images.7:36
+#: en/live-images.7:38
 msgid ""
 "More information about live-images and the Live Systems project can be found "
 "on the homepage at E<lt>I<http://live-systems.org/>E<gt> and in the manual "
@@ -151,13 +163,13 @@ msgstr ""
 "unter E<lt>I<http://live-systems.org/manual/>E<gt> gefunden werden."
 
 #. type: SH
-#: en/live-images.7:37
+#: en/live-images.7:39
 #, no-wrap
 msgid "BUGS"
 msgstr "FEHLER"
 
 #. type: Plain text
-#: en/live-images.7:39
+#: en/live-images.7:41
 msgid ""
 "Bugs can be reported by submitting a bugreport for the live-images package "
 "in the Bug Tracking System at E<lt>I<http://bugs.debian.org/>E<gt> or by "
@@ -171,13 +183,13 @@ msgstr ""
 "werden."
 
 #. type: SH
-#: en/live-images.7:40
+#: en/live-images.7:42
 #, no-wrap
 msgid "AUTHOR"
 msgstr "AUTOR"
 
 #. type: Plain text
-#: en/live-images.7:41
+#: en/live-images.7:43
 msgid ""
 "live-images was written by Daniel Baumann E<lt>I<mail@daniel-baumann."
 "ch>E<gt>."

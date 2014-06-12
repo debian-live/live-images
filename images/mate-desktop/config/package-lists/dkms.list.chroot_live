@@ -1,0 +1,16 @@
+# open-vm-tools
+open-vm-dkms
+open-vm-tools
+#if PARENT_DISTRIBUTION wheezy
+	open-vm-toolbox
+#endif
+#nif PARENT_DISTRIBUTION wheezy
+	open-vm-tools-desktop
+#endif
+
+#if PARENT_ARCHIVE_AREAS contrib
+	# virtualbox
+	virtualbox-guest-dkms
+	virtualbox-guest-utils
+	virtualbox-guest-x11
+#endif
