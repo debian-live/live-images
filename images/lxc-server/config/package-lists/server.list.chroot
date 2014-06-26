@@ -15,6 +15,7 @@ wget
 bridge-utils
 debootstrap
 lxc lxc-stuff
+haveged
 #if PARENT_ARCHITECTURE amd64 armhf
 	criu
 #endif
