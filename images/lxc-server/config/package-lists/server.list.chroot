@@ -14,7 +14,7 @@ wget
 # LXC Server
 bridge-utils
 debootstrap
-lxc lxc-stuff python3
+lxc lxc-stuff
 #if PARENT_ARCHITECTURE amd64 armhf
 	criu
 #endif
