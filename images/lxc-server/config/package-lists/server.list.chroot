@@ -3,9 +3,7 @@ apt-utils
 bash-completion
 kexec-tools
 less
-#nif PARENT_DISTRIBUTION jessie
 molly-guard
-#endif
 ntp
 psmisc
 rsync
