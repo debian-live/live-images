@@ -1,11 +1,12 @@
 # open-vm-tools
-open-vm-dkms
 open-vm-tools
 #if PARENT_DISTRIBUTION wheezy
+	open-vm-dkms
 	open-vm-toolbox
 #endif
 #nif PARENT_DISTRIBUTION wheezy
 	open-vm-tools-desktop
+	open-vm-tools-dkms
 #endif
 
 #if PARENT_ARCHIVE_AREAS contrib
