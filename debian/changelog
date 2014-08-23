@@ -1,3 +1,20 @@
+live-images (4.0~alpha26-1) unstable; urgency=low
+
+  * Dropping temporary distribution overrides for lxc-server.
+  * Dropping explicit python3 from lxc-server list.
+  * Adding haveged to lxc-server list.
+  * Temporarily skipping testing-removed molly-guard from jessie.
+  * Bumping version for next wheezy point release.
+  * Updating for jessie alpha1.
+  * Setting empty suffix for consistency reason in wheezy script.
+  * Dropping temporarily added jessie-only markings for molly-guard, it's
+    back in testing again.
+  * Dropping lxc-server image again, it's not an official task in tasksel.
+  * Updating names of open-vm-tools dkms package for jessie.
+  * Marking plymouth-drm as wheezy-only.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sat, 23 Aug 2014 08:22:25 +0200
+
 live-images (4.0~alpha25-1) unstable; urgency=low
 
   [ Daniel Baumann ]
