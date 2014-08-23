@@ -2,8 +2,11 @@ task-kde-desktop
 task-print-server
 
 plymouth
-plymouth-drm
 plymouth-x11
+
+#nif PARENT_DISTRIBUTION wheezy
+plymouth-drm
+#endif
 
 #gstreamer-vaapi
 i965-va-driver
