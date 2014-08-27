@@ -1,3 +1,9 @@
+live-images (4.0.0-1) unstable; urgency=low
+
+  * Correcting date in German manpage translation.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Wed, 27 Aug 2014 20:16:56 +0200
+
 live-images (4.0~alpha26-1) unstable; urgency=low
 
   * Dropping temporary distribution overrides for lxc-server.
