@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: live-images 4.0.0-1\n"
-"POT-Creation-Date: 2014-08-27 20:16+0200\n"
+"Project-Id-Version: live-images 4.0.1-1\n"
+"POT-Creation-Date: 2014-09-12 14:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgstr ""
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2014-08-27"
+msgid "2014-09-12"
 msgstr ""
 
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "4.0.0-1"
+msgid "4.0.1-1"
 msgstr ""
 
 #. type: TH
