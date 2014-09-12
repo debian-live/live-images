@@ -1,3 +1,10 @@
+live-images (4.0.1-1) unstable; urgency=low
+
+  * Adding updated bootloader configs for both wheezy and newer with
+    syslinux 4 and syslinux 6 respectively.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Fri, 12 Sep 2014 14:12:02 +0200
+
 live-images (4.0.0-1) unstable; urgency=low
 
   * Correcting date in German manpage translation.
