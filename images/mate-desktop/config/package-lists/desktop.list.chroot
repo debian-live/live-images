@@ -1,6 +1,5 @@
-#task-mate-desktop (#712696)
 # Depends
-tasksel task-desktop mate-desktop-environment
+tasksel task-desktop task-mate-desktop
 # Recommends
 #if LB_APT_RECOMMENDS true
 	mate-desktop-environment-extras
