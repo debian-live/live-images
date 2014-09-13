@@ -25,7 +25,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (metapackage)
  The Live Systems project maintains the components to build Debian based Live
@@ -45,7 +44,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (Cinnamon desktop)
  The Live Systems project maintains the components to build Debian based Live
@@ -65,7 +63,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (GNOME desktop)
  The Live Systems project maintains the components to build Debian based Live
@@ -84,7 +81,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (KDE desktop)
  The Live Systems project maintains the components to build Debian based Live
@@ -103,7 +99,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (LXDE desktop)
  The Live Systems project maintains the components to build Debian based Live
@@ -122,7 +117,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (MATE desktop)
  The Live Systems project maintains the components to build Debian based Live
@@ -141,7 +135,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (rescue)
  The Live Systems project maintains the components to build Debian based Live
@@ -160,7 +153,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (standard)
  The Live Systems project maintains the components to build Debian based Live
@@ -179,7 +171,6 @@ Depends:
 Recommends:
  live-boot-doc,
  live-config-doc,
- live-debconfig-doc,
  live-manual-html | live-manual,
 Description: Live System Image Components (Xfce desktop)
  The Live Systems project maintains the components to build Debian based Live
