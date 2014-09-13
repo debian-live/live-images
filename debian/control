@@ -14,6 +14,7 @@ Architecture: all
 Section: metapackages
 Depends:
  ${misc:Depends},
+ live-image-cinnamon-desktop,
  live-image-gnome-desktop,
  live-image-kde-desktop,
  live-image-lxde-desktop,
@@ -35,6 +36,26 @@ Description: Live System Image Components (metapackage)
  .
  This package is a metapackage depending on all available configuration
  directories.
+
+Package: live-image-cinnamon-desktop
+Architecture: all
+Depends:
+ ${misc:Depends},
+ live-build (>= 4.0~),
+Recommends:
+ live-boot-doc,
+ live-config-doc,
+ live-debconfig-doc,
+ live-manual-html | live-manual,
+Description: Live System Image Components (Cinnamon desktop)
+ The Live Systems project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-images contains the configuration directories for live-build to build
+ live system images.
+ .
+ This package contains the configuration directory for the Cinnamon desktop
+ image.
 
 Package: live-image-gnome-desktop
 Architecture: all
