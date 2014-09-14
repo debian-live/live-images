@@ -21,7 +21,7 @@ task-print-server
 plymouth
 plymouth-x11
 
-#nif PARENT_DISTRIBUTION wheezy
+#if PARENT_DISTRIBUTION wheezy
 plymouth-drm
 #endif
 
