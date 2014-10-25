@@ -204,11 +204,6 @@ live-images (4.0~a8-1) unstable; urgency=low
 
 live-images (4.0~a7-1) unstable; urgency=low
 
-  * Adjusting depends against live-build again, it needs live-build
-    3.0.0-1 or newer now.
-  * Removing superfluous menu default directive in installer syslinux
-    menues.
-  * Releasing debian version 4.0~a6-1.
   * Using 'A' shortcut key for 'Advanced options' in syslinux menu.
   * Shuffeling package lists arround to include task-laptop and task-ssh-
     server on all images by default.
