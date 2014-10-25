@@ -1,3 +1,32 @@
+live-images (4.0.2-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Renaming live.list.chroot to live-systems.list.chroot to ensure
+    compatibility with both lb3 and lb4, for both wheezy and jessie, and
+    without hardcoding initsystem dependent packages in the package list
+    (but rather let lb populate it).
+  * Using new task-mate-desktop in mate-desktop image instead of mate-
+    desktop-environment.
+  * Adding initial cinnamon-desktop config.
+  * Dropping discontinued live-debconfig from recommends.
+  * Replacing live-config leftover in bug-presubj with correct package
+    name.
+
+  [ victory ]
+  * Add Japanese translation.
+
+  [ Ben Armstrong ]
+  * Fixing reversed logic for plymouth-drm: only in wheezy.
+
+  [ Daniel Baumann ]
+  * Updating to standards version 3.9.6.
+  * Dropping rescue flavour, we only want to build images based on tasksel
+    selections and nobody was interested enough to get the rescue flavour
+    in there at this point.
+  * Dropping incomplete German manpage translations.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sat, 25 Oct 2014 14:56:34 +0200
+
 live-images (4.0.1-1) unstable; urgency=low
 
   * Adding updated bootloader configs for both wheezy and newer with
