@@ -1,19 +1,18 @@
-# German translations for live-images
-# Copyright (C) 2006-2014 Daniel Baumann <mail@daniel-baumann.ch>
+# Japanese translations for live-images package
+# Copyright (C) 2014 victory <victory.deb@gmail.com>
 # This file is distributed under the same license as the live-images package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: live-images 4.0.0-1\n"
-"POT-Creation-Date: 2014-09-12 14:11+0200\n"
-"PO-Revision-Date: 2010-05-24 09:59+0300\n"
-"Last-Translator: Daniel Baumann <mail@daniel-baumann.ch>\n"
+"Project-Id-Version: live-images 4.0.1-1\n"
+"POT-Creation-Date: 2014-10-25 14:56+0200\n"
+"PO-Revision-Date: 2014-09-12 21:11+0900\n"
+"Last-Translator: victory <victory.deb@gmail.com>\n"
 "Language-Team: none\n"
-"Language: de\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: TH
 #: en/live-images.7:9
@@ -24,37 +23,37 @@ msgstr "LIVE-IMAGES"
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2014-09-12"
-msgstr "12.09.2014"
+msgid "2014-10-25"
+msgstr ""
 
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "4.0.1-1"
+msgid "4.0.2-1"
 msgstr ""
 
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
 msgid "Live Systems Project"
-msgstr "Live Systems Projekt"
+msgstr "Live システムプロジェクト"
 
 #. type: SH
 #: en/live-images.7:11
 #, no-wrap
 msgid "NAME"
-msgstr "NAME"
+msgstr "名前"
 
 #. type: Plain text
 #: en/live-images.7:13
 msgid "B<live-images> - System Image Configurations"
-msgstr "B<live-images> - System Image Konfigurationen"
+msgstr "B<live-images> - システムイメージ設定"
 
 #. type: SH
 #: en/live-images.7:14
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr "BESCHREIBUNG"
+msgstr "説明"
 
 #. type: Plain text
 #: en/live-images.7:16
@@ -62,14 +61,14 @@ msgid ""
 "B<live-images> contains the live-build(7) configuration trees to build live "
 "images."
 msgstr ""
-"B<live-images> enthält die live-build(7) Konfigurationen um Live Images zu "
-"bauen."
+"B<live-images> は Live イメージをビルドするための live-build(7) 設定ツリーを"
+"収録しています。"
 
 #. type: SH
 #: en/live-images.7:17
 #, no-wrap
 msgid "FILES"
-msgstr "DATEIEN"
+msgstr "ファイル"
 
 #. type: IP
 #: en/live-images.7:18
@@ -98,95 +97,88 @@ msgstr "B</usr/share/live/images/mate-desktop>"
 #. type: IP
 #: en/live-images.7:22
 #, no-wrap
-msgid "B</usr/share/live/images/rescue>"
-msgstr "B</usr/share/live/images/rescue>"
-
-#. type: IP
-#: en/live-images.7:23
-#, no-wrap
 msgid "B</usr/share/live/images/standard>"
 msgstr "B</usr/share/live/images/standard>"
 
 #. type: IP
-#: en/live-images.7:24
+#: en/live-images.7:23
 #, no-wrap
 msgid "B</usr/share/live/images/xfce-desktop>"
 msgstr "B</usr/share/live/images/xfce-desktop>"
 
 #. type: SH
-#: en/live-images.7:26
+#: en/live-images.7:25
 #, no-wrap
 msgid "SEE ALSO"
-msgstr "SIEHE AUCH"
+msgstr "関連項目"
 
 #. type: Plain text
-#: en/live-images.7:28
+#: en/live-images.7:27
 msgid "I<live-boot>(7)"
 msgstr "I<live-boot>(7)"
 
 #. type: Plain text
-#: en/live-images.7:30
+#: en/live-images.7:29
 msgid "I<live-build>(7)"
 msgstr "I<live-build>(7)"
 
 #. type: Plain text
-#: en/live-images.7:32
+#: en/live-images.7:31
 msgid "I<live-config>(7)"
 msgstr "I<live-config>(7)"
 
 #. type: Plain text
-#: en/live-images.7:34
+#: en/live-images.7:33
 msgid "I<live-tools>(7)"
 msgstr "I<live-tools>(7)"
 
 #. type: SH
-#: en/live-images.7:35
+#: en/live-images.7:34
 #, no-wrap
 msgid "HOMEPAGE"
-msgstr "HOMEPAGE"
+msgstr "ホームページ"
 
 #. type: Plain text
-#: en/live-images.7:37
+#: en/live-images.7:36
 msgid ""
 "More information about live-images and the Live Systems project can be found "
 "on the homepage at E<lt>I<http://live-systems.org/>E<gt> and in the manual "
 "at E<lt>I<http://live-systems.org/manual/>E<gt>."
 msgstr ""
-"Weitere Informationen über live-images und das Live Systems Projekt können "
-"auf der Homepage unter E<lt>I<http://live-systems.org/>E<gt> und im Handbuch "
-"unter E<lt>I<http://live-systems.org/manual/>E<gt> gefunden werden."
+"live-images 及び Live システムプロジェクトについてのさらなる情報は、"
+"E<lt>I<http://live-systems.org/>E<gt> のホームページや E<lt>I<http://live-"
+"systems.org/manual/>E<gt> のマニュアルにあります。"
 
 #. type: SH
-#: en/live-images.7:38
+#: en/live-images.7:37
 #, no-wrap
 msgid "BUGS"
-msgstr "FEHLER"
+msgstr "バグ"
 
 #. type: Plain text
-#: en/live-images.7:40
+#: en/live-images.7:39
 msgid ""
 "Bugs can be reported by submitting a bugreport for the live-images package "
 "in the Bug Tracking System at E<lt>I<http://bugs.debian.org/>E<gt> or by "
 "writing a mail to the Live Systems mailing list at E<lt>I<debian-live@lists."
 "debian.org>E<gt>."
 msgstr ""
-"Fehler können durch Einreichen eines Fehlerberichtes für das live-images "
-"Paket im Bug Tracking System unter E<lt>I<http://bugs.debian.org/>E<gt> oder "
-"durch Senden einer E-Mail an die Live Systems Mailing Liste unter "
-"E<lt>I<debian-live@lists.debian.org>E<gt> (englischsprachig) mitgeteilt "
-"werden."
+"バグは E<lt>I<http://bugs.debian.org/>E<gt> にあるバグ追跡システムに live-"
+"images パッケージのバグ報告として提出するか、E<lt>I<debian-live@lists.debian."
+"org>E<gt> にある Live システムのメーリングリスト宛てにメールを書くことにより"
+"報告できます。"
 
 #. type: SH
-#: en/live-images.7:41
+#: en/live-images.7:40
 #, no-wrap
 msgid "AUTHOR"
-msgstr "AUTOR"
+msgstr "作者"
 
 #. type: Plain text
-#: en/live-images.7:42
+#: en/live-images.7:41
 msgid ""
 "live-images was written by Daniel Baumann E<lt>I<mail@daniel-baumann."
 "ch>E<gt>."
 msgstr ""
-"live-images wurde von Daniel Baumann E<lt>I<mail@daniel-baumann.ch>E<gt> "
-"geschrieben."
+"live-images は Daniel Baumann さん E<lt>I<mail@daniel-baumann.ch>E<gt> により"
+"書かれました。"

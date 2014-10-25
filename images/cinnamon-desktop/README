@@ -1,6 +1,6 @@
 This is the configuration tree for:
 
-  Debian Rescue
+  Debian Cinnamon Desktop
 
 A software called live-build can be used to automatically build images from
 this configuration tree.

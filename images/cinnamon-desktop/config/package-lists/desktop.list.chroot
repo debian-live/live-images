@@ -1,8 +1,7 @@
 # Depends
-tasksel task-desktop task-mate-desktop
+tasksel task-desktop task-cinnamon-desktop
 # Recommends
 #if LB_APT_RECOMMENDS true
-	mate-desktop-environment-extras
 	libreoffice-gnome
 	libreoffice-evolution
 	gimp
