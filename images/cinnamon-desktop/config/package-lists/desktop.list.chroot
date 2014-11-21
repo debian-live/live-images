@@ -1,22 +1,5 @@
-# Depends
-tasksel task-desktop task-cinnamon-desktop
-# Recommends
-#if LB_APT_RECOMMENDS true
-	libreoffice-gnome
-	libreoffice-evolution
-	gimp
-	synaptic
-	iceweasel
-	libreoffice
-	libreoffice-gcj
-	libreoffice-help-en-us
-	mythes-en-us
-	hunspell-en-us
-	hyphen-en-us
-	network-manager-gnome
-#endif
-
-task-print-server
+task-cinnamon-desktop
+task-printer-server
 
 plymouth
 plymouth-x11
