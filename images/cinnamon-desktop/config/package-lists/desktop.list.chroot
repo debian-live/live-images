@@ -4,11 +4,5 @@ task-printer-server
 plymouth
 plymouth-x11
 
-#if PARENT_DISTRIBUTION wheezy
-plymouth-drm
-#endif
-
-#nif PARENT_DISTRIBUTION wheezy
 gstreamer1.0-vaapi
-#endif
 i965-va-driver
