@@ -1,3 +1,14 @@
+live-images (4.0.3-1) unstable; urgency=low
+
+  * Including gstreamer-vaapi on jessie and newer desktop configs.
+  * Harmonizing cinnamon-desktop package list.
+  * Harmonizing mate-desktop package list.
+  * Removing nvclock from dkms.list.chroot_install package lists, nvclock
+    got removed from jessie.
+  * Updating d-i bootparameter separator for jessie.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 25 Jan 2015 09:04:26 +0100
+
 live-images (4.0.2-1) unstable; urgency=low
 
   [ Daniel Baumann ]
