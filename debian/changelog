@@ -1,3 +1,9 @@
+live-images (5.0~a1-1) experimental; urgency=low
+
+  * Dropping wheezy from config trees.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 25 Jan 2015 09:14:55 +0100
+
 live-images (4.0.3-1) unstable; urgency=low
 
   * Including gstreamer-vaapi on jessie and newer desktop configs.
