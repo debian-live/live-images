@@ -1,31 +1,20 @@
-binary/
-binary*.iso
-binary*.img
-binary*.tar*
-binary*.contents
-binary*.packages
-binary*.zsync
-
 .build/
-build.log
+build.*
+
+binary/
 
 cache/
 
 chroot/
-chroot.packages.*
+chroot.*
 
 config/binary
 config/bootstrap
+config/build
 config/chroot
 config/common
 config/source
 
-config/control
+live-image-*
 
 source/
-source*.iso
-source*.img
-source*.tar*
-source*.contents
-source*.packages
-source*.zsync
