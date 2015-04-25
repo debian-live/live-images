@@ -1,3 +1,19 @@
+live-images (4.0.4-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Dropping explicit kernel package selection.
+  * Updating bootloader splash with Lines theme from Juliette Taka Belin
+    <juliettetaka.belin@gmail.com> for jessie (Closes: #775527).
+
+  [ Ben Armstrong ]
+  * Fixing incorrect print task package name.
+
+  [ Daniel Baumann ]
+  * Updating gitignore file.
+  * Updating hook to set plymouth default theme.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sat, 25 Apr 2015 07:28:29 +0200
+
 live-images (4.0.3-1) unstable; urgency=low
 
   * Including gstreamer-vaapi on jessie and newer desktop configs.
