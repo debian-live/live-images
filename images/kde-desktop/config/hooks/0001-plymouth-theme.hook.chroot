@@ -2,7 +2,13 @@
 
 set -e
 
-if [ -e /usr/sbin/plymouth-set-default-theme ] && [ -e /usr/share/plymouth/themes/joy ]
+if [ -e /usr/sbin/plymouth-set-default-theme ]
 then
-	plymouth-set-default-theme joy
+	if [ -e /usr/share/plymouth/themes/lines ]
+	then
+		plymouth-set-default-theme lines
+	elif [ -e /usr/share/plymouth/themes/joy ]
+	then
+		plymouth-set-default-theme joy
+	fi
 fi
