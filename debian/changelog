@@ -1,3 +1,19 @@
+live-images (5.0~a2-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Dropping explicit kernel package selection.
+  * Updating bootloader splash with Lines theme from Juliette Taka Belin
+    <juliettetaka.belin@gmail.com> for jessie (Closes: #775527).
+
+  [ Ben Armstrong ]
+  * Fixing incorrect print task package name.
+
+  [ Daniel Baumann ]
+  * Updating gitignore file.
+  * Updating hook to set plymouth default theme.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 26 Apr 2015 20:34:20 +0200
+
 live-images (5.0~a1-1) experimental; urgency=low
 
   * Dropping wheezy from config trees.
