@@ -1,3 +1,9 @@
+live-images (5.0~a3-1) unstable; urgency=low
+
+  * Updating jessie bootloader splash (Closes: #775527).
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Tue, 28 Apr 2015 06:40:29 +0200
+
 live-images (5.0~a2-1) unstable; urgency=low
 
   [ Daniel Baumann ]
