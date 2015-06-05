@@ -1,3 +1,11 @@
+live-images (5.0~a4-1) unstable; urgency=low
+
+  * Dropping examples, not used anymore.
+  * Dropping sudo from installer.list, debian-installer-launcher needs to
+    be fixed and have a direct depends on sudo.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Fri, 05 Jun 2015 18:25:55 +0200
+
 live-images (5.0~a3-1) unstable; urgency=low
 
   * Updating jessie bootloader splash (Closes: #775527).
