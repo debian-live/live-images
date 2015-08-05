@@ -1,0 +1,185 @@
+# Spanish translations for live-images
+# Copyright (C) 2015 Carlos Zuferri <chals@altorricon.com>
+# This file is distributed under the same license as the live-manual package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: live-images 5.0~a4-1\n"
+"POT-Creation-Date: 2015-08-02 18:20+0200\n"
+"PO-Revision-Date: 2015-08-02 13:56+0100\n"
+"Last-Translator: Carlos Zuferri <chals@altorricon.com>\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: TH
+#: en/live-images.7:9
+#, no-wrap
+msgid "LIVE-IMAGES"
+msgstr "LIVE-IMAGES"
+
+#. type: TH
+#: en/live-images.7:9
+#, no-wrap
+msgid "2015-08-05"
+msgstr "2015-08-05"
+
+#. type: TH
+#: en/live-images.7:9
+#, no-wrap
+msgid "5.0~a4-1"
+msgstr "5.0~a4-1"
+
+#. type: TH
+#: en/live-images.7:9
+#, no-wrap
+msgid "Live Systems Project"
+msgstr "Proyecto Live Systems"
+
+#. type: SH
+#: en/live-images.7:11
+#, no-wrap
+msgid "NAME"
+msgstr "NOMBRE"
+
+#. type: Plain text
+#: en/live-images.7:13
+msgid "B<live-images> - System Image Configurations"
+msgstr "B<live-images> - Configuraciones de Imágenes de Sistemas"
+
+#. type: SH
+#: en/live-images.7:14
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "DESCRIPCION"
+
+#. type: Plain text
+#: en/live-images.7:16
+msgid ""
+"B<live-images> contains the live-build(7) configuration trees to build live "
+"images."
+msgstr ""
+"B<live-images> contiene las configuraciones para crear imágenes en vivo con "
+"live-build(7)."
+
+#. type: SH
+#: en/live-images.7:17
+#, no-wrap
+msgid "FILES"
+msgstr "FICHEROS"
+
+#. type: IP
+#: en/live-images.7:18
+#, no-wrap
+msgid "B</usr/share/live/images/gnome-desktop>"
+msgstr "B</usr/share/live/images/gnome-desktop>"
+
+#. type: IP
+#: en/live-images.7:19
+#, no-wrap
+msgid "B</usr/share/live/images/kde-desktop>"
+msgstr "B</usr/share/live/images/kde-desktop>"
+
+#. type: IP
+#: en/live-images.7:20
+#, no-wrap
+msgid "B</usr/share/live/images/lxde-desktop>"
+msgstr "B</usr/share/live/images/lxde-desktop>"
+
+#. type: IP
+#: en/live-images.7:21
+#, no-wrap
+msgid "B</usr/share/live/images/mate-desktop>"
+msgstr "B</usr/share/live/images/mate-desktop>"
+
+#. type: IP
+#: en/live-images.7:22
+#, no-wrap
+msgid "B</usr/share/live/images/standard>"
+msgstr "B</usr/share/live/images/standard>"
+
+#. type: IP
+#: en/live-images.7:23
+#, no-wrap
+msgid "B</usr/share/live/images/xfce-desktop>"
+msgstr "B</usr/share/live/images/xfce-desktop>"
+
+#. type: SH
+#: en/live-images.7:25
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "VER TAMBIEN"
+
+#. type: Plain text
+#: en/live-images.7:27
+msgid "I<live-boot>(7)"
+msgstr "I<live-boot>(7)"
+
+#. type: Plain text
+#: en/live-images.7:29
+msgid "I<live-build>(7)"
+msgstr "I<live-build>(7)"
+
+#. type: Plain text
+#: en/live-images.7:31
+msgid "I<live-config>(7)"
+msgstr "I<live-config>(7)"
+
+#. type: Plain text
+#: en/live-images.7:33
+msgid "I<live-tools>(7)"
+msgstr "I<live-tools>(7)"
+
+#. type: SH
+#: en/live-images.7:34
+#, no-wrap
+msgid "HOMEPAGE"
+msgstr "PAGINA WEB"
+
+#. type: Plain text
+#: en/live-images.7:36
+msgid ""
+"More information about live-images and the Live Systems project can be found "
+"on the homepage at E<lt>I<http://live-systems.org/>E<gt> and in the manual "
+"at E<lt>I<http://live-systems.org/manual/>E<gt>."
+msgstr ""
+"Se puede encontrar más información acerca de live-images y el proyecto Live "
+"Systems en la página web E<lt>I<http://live-systems.org/>E<gt> y en el "
+"manual E<lt>I<http://live-systems.org/manual/>E<gt>."
+
+#. type: SH
+#: en/live-images.7:37
+#, no-wrap
+msgid "BUGS"
+msgstr "ERRORES"
+
+#. type: Plain text
+#: en/live-images.7:39
+msgid ""
+"Bugs can be reported by submitting a bugreport for the live-images package "
+"in the Bug Tracking System at E<lt>I<http://bugs.debian.org/>E<gt> or by "
+"writing a mail to the Live Systems mailing list at E<lt>I<debian-live@lists."
+"debian.org>E<gt>."
+msgstr ""
+"Se puede informar acerca de los errores encontrados en el paquete live-"
+"images en el sistema de seguimiento de errores E<lt>I<http://bugs.debian.org/"
+">E<gt> o escribiendo un correo electrónico a la lista de correo de Live "
+"Systems E<lt>I<debian-live@lists.debian.org>E<gt>."
+
+#. type: SH
+#: en/live-images.7:40
+#, no-wrap
+msgid "AUTHOR"
+msgstr "AUTOR"
+
+#. type: Plain text
+#: en/live-images.7:41
+msgid ""
+"live-images was written by Daniel Baumann E<lt>I<mail@daniel-baumann."
+"ch>E<gt>."
+msgstr ""
+"live-images fue escrito por Daniel Baumann E<lt>I<mail@daniel-baumann."
+"ch>E<gt>."
