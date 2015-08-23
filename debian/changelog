@@ -1,3 +1,17 @@
+live-images (5.0~a5-1) unstable; urgency=low
+
+  [ Carlos Zuferri ]
+  * Adding initial Spanish translation of manpage.
+  * Updating dates in manpages files.
+
+  [ Daniel Baumann ]
+  * Synchronising gitignore file for standard config with all the other
+    gitignore files.
+  * Marking pciutils to be included only when non-free is enabled.
+  * Wrap and sort debian control file.
+
+ -- Daniel Baumann <mail@daniel-baumann.ch>  Sun, 23 Aug 2015 11:02:33 +0200
+
 live-images (5.0~a4-1) unstable; urgency=low
 
   * Dropping examples, not used anymore.
