@@ -1,0 +1,21 @@
+
+Debian Hamradio Blend Live Image
+================================
+
+This is the live-build configuration used to build the Debian Hamradio Blend
+Live hybrid CD images.
+
+Debian Hamradio Blend Live is a live system based on Debian testing and
+includes the Debian Hamradio Blend's packages and general productivity
+packages. It only includes those packages that are available in the official
+Debian main archive (that is, not including contrib or non-free) as far as is
+possible. During the initial development, this rule may be bent a bit.
+
+The image also includes an installer that allows you to install the live image
+to a hard drive which can then be used as if it had been installed with the
+official Debian installer, but with a different set of packages installed
+initially.
+
+Contact: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Website: https://www.debian.org/devel/hamradio/
+
