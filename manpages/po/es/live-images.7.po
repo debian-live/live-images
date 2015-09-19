@@ -23,17 +23,15 @@ msgstr "LIVE-IMAGES"
 
 #. type: TH
 #: en/live-images.7:9
-#, fuzzy, no-wrap
-#| msgid "2015-08-05"
+#, no-wrap
 msgid "2015-09-19"
-msgstr "2015-08-05"
+msgstr "2015-09-19"
 
 #. type: TH
 #: en/live-images.7:9
-#, fuzzy, no-wrap
-#| msgid "5.0~a4-1"
+#, no-wrap
 msgid "5.0~a5-1"
-msgstr "5.0~a4-1"
+msgstr "5.0~a5-1"
 
 #. type: TH
 #: en/live-images.7:9
