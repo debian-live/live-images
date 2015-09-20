@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-images 5.0~a5-1\n"
-"POT-Creation-Date: 2015-09-19 21:12+0200\n"
-"PO-Revision-Date: 2015-09-19 21:09+0200\n"
+"POT-Creation-Date: 2015-09-20 17:53+0200\n"
+"PO-Revision-Date: 2015-09-20 17:54+0200\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -23,8 +23,8 @@ msgstr "LIVE-IMAGES"
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2015-09-19"
-msgstr "2015-09-19"
+msgid "2015-09-20"
+msgstr "2015-09-20"
 
 #. type: TH
 #: en/live-images.7:9
@@ -145,8 +145,8 @@ msgid ""
 "on the homepage at E<lt>I<http://live-systems.org/>E<gt> and in the manual "
 "at E<lt>I<http://live-systems.org/manual/>E<gt>."
 msgstr ""
-"D'avantage d'informations à propos des images-live et du projet Live Systems "
-"peuvent être trouvées à la page d'accueil à E<lt>I<http://live-systems.org/"
+"Davantage d'informations à propos des images-live et du projet Live Systems "
+"peuvent être trouvées sur la page d'accueil à E<lt>I<http://live-systems.org/"
 ">E<gt> et dans le manuel à E<lt>I<http://live-systems.org/manual/>E<gt>."
 
 #. type: SH
@@ -163,7 +163,7 @@ msgid ""
 "writing a mail to the Live Systems mailing list at E<lt>I<debian-live@lists."
 "debian.org>E<gt>."
 msgstr ""
-"Les bogues peuvent être rapportés en soumettant un rapport de bogue pour le "
+"Les bogues peuvent être signalés en soumettant un rapport de bogue pour le "
 "paquet live-images dans le BTS à E<lt>I<http://bugs.debian.org/>E<gt> ou par "
 "l'écriture d'un courriel à la liste de diffusion Live Systems à "
 "E<lt>I<debian-live@lists.debian.org>E<gt>."

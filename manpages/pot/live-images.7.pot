@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: live-images 5.0~a5-1\n"
-"POT-Creation-Date: 2015-09-19 21:12+0200\n"
+"POT-Creation-Date: 2015-09-20 17:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: en/live-images.7:9
 #, no-wrap
-msgid "2015-09-19"
+msgid "2015-09-20"
 msgstr ""
 
 #. type: TH
