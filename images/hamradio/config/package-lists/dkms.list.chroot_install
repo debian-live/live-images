@@ -1,7 +1,8 @@
-# live-config xserver-xorg script
-pciutils
 
 #if PARENT_ARCHIVE_AREAS non-free
+	# live-config xserver-xorg script
+	pciutils
+
 	# broadcom-sta
 	broadcom-sta-dkms
 
